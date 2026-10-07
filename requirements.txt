@@ -1,0 +1,46 @@
+# Core dependencies for NCERT AI Teacher Assistant
+
+# Backend / Python
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# LLM Integration
+google-generativeai>=0.3.0
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-google-genai>=0.0.5
+langgraph>=0.0.10
+
+# Vector Database
+qdrant-client>=1.7.0
+lancedb>=0.7.0
+
+# Document Processing
+pymupdf>=1.23.0
+python-docx>=1.0.0
+unstructured>=0.10.0
+markdown>=3.4.0
+
+# Export
+reportlab>=4.0.0
+weasyprint>=60.0
+
+# Data
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.24.0
+
+# Development
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Frontend dependencies are in package.json
