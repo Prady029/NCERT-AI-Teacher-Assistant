@@ -1,0 +1,64 @@
+{
+  "subject": "chemistry",
+  "subject_label": "Chemistry",
+  "class": 11,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Chemistry Part-I",
+    "book_code": "kech1",
+    "first_chapter": 0,
+    "last_chapter": 6,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?kech1=0-6"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Chemistry Part-I",
+      "book_code": "kech1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kech1=0-6"
+    },
+    {
+      "title": "Rasayan Vigyan bhag-I",
+      "book_code": "khch1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khch1=0-6"
+    },
+    {
+      "title": "Keemiya I",
+      "book_code": "kuch1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuch1=0-7"
+    },
+    {
+      "title": "Chemistry Part II",
+      "book_code": "kech2",
+      "first_chapter": 0,
+      "last_chapter": 3,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kech2=0-3"
+    },
+    {
+      "title": "Rasayan Vigyan bhag-II",
+      "book_code": "khch2",
+      "first_chapter": 0,
+      "last_chapter": 3,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khch2=0-3"
+    },
+    {
+      "title": "Keemiya II",
+      "book_code": "kuch2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuch2=0-7"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

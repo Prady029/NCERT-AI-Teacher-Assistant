@@ -1,0 +1,204 @@
+{
+  "subject": "science",
+  "subject_label": "Science",
+  "class": 8,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Science",
+    "book_code": "hesc1",
+    "first_chapter": 0,
+    "last_chapter": 13,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?hesc1=0-13"
+  },
+  "primary_book_selection": "exact subject-title match",
+  "books": [
+    {
+      "title": "Curiosity",
+      "book_code": "hecu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hecu1=0-13"
+    },
+    {
+      "title": "Jigyasa",
+      "book_code": "hhcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhcu1=0-13"
+    },
+    {
+      "title": "Tajassus",
+      "book_code": "hucu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hucu1=0-13"
+    },
+    {
+      "title": "Curiosity (Punjabi)",
+      "book_code": "hpncu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hpncu1=0-13"
+    },
+    {
+      "title": "Curiosity (Tamil)",
+      "book_code": "htmcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htmcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Odia)",
+      "book_code": "horcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?horcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Assamese)",
+      "book_code": "hascu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hascu1=0-13"
+    },
+    {
+      "title": "Curiosity (Marathi)",
+      "book_code": "hmrcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmrcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Bengali)",
+      "book_code": "hbncu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbncu1=0-13"
+    },
+    {
+      "title": "Curiosity (Dogri)",
+      "book_code": "hdgcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hdgcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Telugu)",
+      "book_code": "htlcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htlcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Bodo)",
+      "book_code": "hbdcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbdcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Gujarati)",
+      "book_code": "hgjcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hgjcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Manipuri)",
+      "book_code": "hmncu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmncu1=0-13"
+    },
+    {
+      "title": "Curiosity (Sanskrit)",
+      "book_code": "hskcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hskcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Malayalam)",
+      "book_code": "hmlcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmlcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Kannada)",
+      "book_code": "hkncu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkncu1=0-13"
+    },
+    {
+      "title": "Curiosity (Konkani)",
+      "book_code": "hkocu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkocu1=0-13"
+    },
+    {
+      "title": "Curiosity (Maithili)",
+      "book_code": "hmtcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmtcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Nepali)",
+      "book_code": "hnpcu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hnpcu1=0-13"
+    },
+    {
+      "title": "Curiosity (Santhali)",
+      "book_code": "hsncu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsncu1=0-13"
+    },
+    {
+      "title": "Curiosity (Sindhi)",
+      "book_code": "hsicu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsicu1=0-13"
+    },
+    {
+      "title": "Curiosity (Kashmiri)",
+      "book_code": "hkscu1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkscu1=0-13"
+    },
+    {
+      "title": "Science",
+      "book_code": "hesc1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hesc1=0-13"
+    },
+    {
+      "title": "Vigyan",
+      "book_code": "hhsc1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhsc1=0-13"
+    },
+    {
+      "title": "Science(Urdu)",
+      "book_code": "huse1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?huse1=0-18"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

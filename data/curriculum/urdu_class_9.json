@@ -1,0 +1,29 @@
+{
+  "subject": "urdu",
+  "subject_label": "Urdu",
+  "class": 9,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Jamuna",
+    "book_code": "iuju1",
+    "first_chapter": 0,
+    "last_chapter": 15,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?iuju1=0-15"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Jamuna",
+      "book_code": "iuju1",
+      "first_chapter": 0,
+      "last_chapter": 15,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?iuju1=0-15"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

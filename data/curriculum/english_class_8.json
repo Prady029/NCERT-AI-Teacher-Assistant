@@ -1,0 +1,43 @@
+{
+  "subject": "english",
+  "subject_label": "English",
+  "class": 8,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Poorvi",
+    "book_code": "hepr1",
+    "first_chapter": 0,
+    "last_chapter": 5,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?hepr1=0-5"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Poorvi",
+      "book_code": "hepr1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hepr1=0-5"
+    },
+    {
+      "title": "Honeydew",
+      "book_code": "hehd1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hehd1=0-8"
+    },
+    {
+      "title": "It So Happend",
+      "book_code": "heih1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?heih1=0-8"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

@@ -1,0 +1,85 @@
+{
+  "subject": "history",
+  "subject_label": "History",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Themes in Indian History-I",
+    "book_code": "lehs1",
+    "first_chapter": 0,
+    "last_chapter": 4,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Themes in Indian History-I",
+      "book_code": "lehs1",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+    },
+    {
+      "title": "Bharatiya Itihas ke kuchh Vishay-I",
+      "book_code": "lhhs1",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhhs1=0-4"
+    },
+    {
+      "title": "Themes in Indian History-II",
+      "book_code": "lehs2",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+    },
+    {
+      "title": "Bharatiya Itihas ke kuchh Vishay-II",
+      "book_code": "lhhs2",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhhs2=0-4"
+    },
+    {
+      "title": "Themes in Indian History-III",
+      "book_code": "lehs3",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+    },
+    {
+      "title": "Bharatiya Itihas ke kuchh Vishay-III",
+      "book_code": "lhhs3",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhhs3=0-4"
+    },
+    {
+      "title": "Tareekh-e-Hind ke Mauzuaat-I(Urdu)",
+      "book_code": "luth1",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luth1=0-4"
+    },
+    {
+      "title": "Tareekh-e-Hind ke Mauzuaat-II(Urdu)",
+      "book_code": "luth2",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luth2=0-4"
+    },
+    {
+      "title": "Tareekh-e-Hind ke Mauzuaat-III(Urdu)",
+      "book_code": "luth3",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luth3=0-4"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

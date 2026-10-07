@@ -1,0 +1,99 @@
+{
+  "subject": "urdu",
+  "subject_label": "Urdu",
+  "class": 5,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Sitaar",
+    "book_code": "eust1",
+    "first_chapter": 0,
+    "last_chapter": 18,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?eust1=0-18"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Sitaar",
+      "book_code": "eust1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?eust1=0-18"
+    },
+    {
+      "title": "Math-Magic",
+      "book_code": "eemh1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?eemh1=0-14"
+    },
+    {
+      "title": "Ganit",
+      "book_code": "ehmh1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ehmh1=0-14"
+    },
+    {
+      "title": "Riyazi Ka Jadoo(Urdu)",
+      "book_code": "euma1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?euma1=0-14"
+    },
+    {
+      "title": "Rimjhim",
+      "book_code": "ehhn1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ehhn1=0-18"
+    },
+    {
+      "title": "Marigold",
+      "book_code": "eeen1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?eeen1=0-10"
+    },
+    {
+      "title": "Aas-Pass",
+      "book_code": "ehap1",
+      "first_chapter": 0,
+      "last_chapter": 22,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ehap1=0-22"
+    },
+    {
+      "title": "Looking Around",
+      "book_code": "eeap1",
+      "first_chapter": 0,
+      "last_chapter": 22,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?eeap1=0-22"
+    },
+    {
+      "title": "Ass Pass(Urdu)",
+      "book_code": "euev1",
+      "first_chapter": 0,
+      "last_chapter": 22,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?euev1=0-22"
+    },
+    {
+      "title": "Ibtedai Urdu Class-V",
+      "book_code": "eulb1",
+      "first_chapter": 0,
+      "last_chapter": 22,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?eulb1=0-22"
+    },
+    {
+      "title": "Malhar",
+      "book_code": "fhml1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fhml1=0-13"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

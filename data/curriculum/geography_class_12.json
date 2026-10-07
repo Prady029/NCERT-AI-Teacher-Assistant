@@ -1,0 +1,85 @@
+{
+  "subject": "geography",
+  "subject_label": "Geography",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Fundamentals of Human Geography",
+    "book_code": "legy1",
+    "first_chapter": 0,
+    "last_chapter": 8,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?legy1=0-8"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Fundamentals of Human Geography",
+      "book_code": "legy1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?legy1=0-8"
+    },
+    {
+      "title": "Practical Work in Geography Part II",
+      "book_code": "legy3",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?legy3=0-4"
+    },
+    {
+      "title": "Manav Bhugol Ke Mool Sidhant",
+      "book_code": "lhgy1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhgy1=0-8"
+    },
+    {
+      "title": "Bhugol main peryojnatmak pryogatmak karye",
+      "book_code": "lhgy3",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhgy3=0-4"
+    },
+    {
+      "title": "India -People And Economy",
+      "book_code": "legy2",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?legy2=0-9"
+    },
+    {
+      "title": "Bharat log aur arthvyasastha(Bhugol)",
+      "book_code": "lhgy2",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhgy2=0-9"
+    },
+    {
+      "title": "Insani Jughrafia Ke Buniyadi Usool(Urdu)",
+      "book_code": "lufh1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lufh1=0-10"
+    },
+    {
+      "title": "Hindustan Awam Aur Maishat(Urdu)",
+      "book_code": "lugy1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lugy1=0-12"
+    },
+    {
+      "title": "Jughrafia Mein Aamli Kam(Urdu)",
+      "book_code": "lugy3",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lugy3=0-6"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

@@ -88,7 +88,13 @@ async def get_curriculum(subject: str, class_level: int):
         class_enum = ClassLevel(class_level)
     except ValueError as exc:
         raise HTTPException(status_code=404, detail="Unsupported subject or class") from exc
-    return ncert_loader.load_curriculum_map(subject_enum, class_enum)
+    curriculum = ncert_loader.load_curriculum_map(subject_enum, class_enum)
+    if curriculum is None:
+        raise HTTPException(
+            status_code=404,
+            detail="No curriculum map for this subject/class. Run scripts/build_curriculum_maps.py.",
+        )
+    return curriculum
 
 
 @router.post("/admin/index-textbooks")

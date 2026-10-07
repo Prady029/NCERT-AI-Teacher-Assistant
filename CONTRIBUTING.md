@@ -47,9 +47,18 @@ If your change affects prompts, schemas, or API routes, describe the request/res
 
 Prompt changes should not weaken validation. If retrieved textbook passages are unavailable, prompts must instruct the model not to claim textbook verification or fabricate citations.
 
-## Ingestion changes
+## Ingestion and curriculum-map changes
 
-`backend/scripts/scrape_ncert.py` reads book codes and chapter ranges from the official [NCERT textbook catalogue](https://ncert.nic.in/textbook.php). Keep the request delay, keep source URLs in the index output, and do not commit downloaded PDFs or extracted text. Check NCERT's current copyright notice and terms before using or redistributing textbook material.
+Both `backend/scripts/scrape_ncert.py` and `backend/scripts/build_curriculum_maps.py` read book codes and chapter ranges from the official [NCERT textbook catalogue](https://ncert.nic.in/textbook.php). Keep the request delay, keep source URLs in the index output, and do not commit downloaded PDFs or extracted text. Check NCERT's current copyright notice and terms before using or redistributing textbook material.
+
+Rules for curriculum maps:
+
+- `build_curriculum_maps.py` must stay conservative. Book codes and ranges may be marked `catalogue_verified: true`; chapter names, learning outcomes, and blueprints must stay empty with `chapter_details_verified: false` until someone checks them against the current textbook and syllabus.
+- Never overwrite a map that already has verified chapter detail. The generator refuses to; keep that behaviour.
+- Put unverified hand-written content under `data/curriculum/drafts/` with the `unverified_draft` marker.
+- Add tests for parsing changes using the fixtures in `tests/test_scripts.py`; tests must not hit the network.
+
+The ZIP path is the primary bulk download (`<code>dd.zip`) with `--mode full`; `--mode chapters` stays available for targeted downloads and CI-friendly single chapters.
 
 ## Reporting issues
 

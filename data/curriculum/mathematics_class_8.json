@@ -1,0 +1,358 @@
+{
+  "subject": "mathematics",
+  "subject_label": "Mathematics",
+  "class": 8,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Mathematics",
+    "book_code": "hemh1",
+    "first_chapter": 0,
+    "last_chapter": 13,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?hemh1=0-13"
+  },
+  "primary_book_selection": "exact subject-title match",
+  "books": [
+    {
+      "title": "Ganita Prakash Part-I",
+      "book_code": "hegp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hegp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II",
+      "book_code": "hegp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hegp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Hindi)",
+      "book_code": "hhgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II (Hindi)",
+      "book_code": "hhgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Urdu)",
+      "book_code": "hugp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hugp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Punjabi)",
+      "book_code": "hpngp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hpngp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Maithili)",
+      "book_code": "hmtgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmtgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Marathi)",
+      "book_code": "hmrgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmrgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Bengali)",
+      "book_code": "hbngp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbngp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Bodo)",
+      "book_code": "hbdgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbdgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Nepali)",
+      "book_code": "hnpgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hnpgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Odia)",
+      "book_code": "horgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?horgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Kannada)",
+      "book_code": "hkngp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkngp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Telugu)",
+      "book_code": "htlgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htlgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Dogri)",
+      "book_code": "hdggp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hdggp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Konkani)",
+      "book_code": "hkogp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkogp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Tamil)",
+      "book_code": "htmgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htmgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Kashmiri)",
+      "book_code": "hksgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hksgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Manipuri)",
+      "book_code": "hmngp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmngp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Sanskrit)",
+      "book_code": "hskgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hskgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Santhali)",
+      "book_code": "hsngp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsngp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Malayalam)",
+      "book_code": "hmlgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmlgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Sindhi)",
+      "book_code": "hsigp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsigp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Assamese)",
+      "book_code": "hasgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hasgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-I (Gujarati)",
+      "book_code": "hgjgp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hgjgp1=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Kannada)",
+      "book_code": "hkngp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkngp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Odia)",
+      "book_code": "horgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?horgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Punjabi)",
+      "book_code": "hpngp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hpngp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Gujarati)",
+      "book_code": "hgjgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hgjgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Tamil)",
+      "book_code": "htmgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htmgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Malayalam)",
+      "book_code": "hmlgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmlgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Assamese)",
+      "book_code": "hasgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hasgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Marathi)",
+      "book_code": "hmrgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmrgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Telugu)",
+      "book_code": "htlgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htlgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Bengali)",
+      "book_code": "hbngp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbngp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Santhali)",
+      "book_code": "hsngp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsngp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Sindhi)",
+      "book_code": "hsigp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsigp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Manipuri)",
+      "book_code": "hmngp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmngp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Bodo)",
+      "book_code": "hbdgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbdgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Dogri)",
+      "book_code": "hdggp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hdggp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Sanskrit)",
+      "book_code": "hskgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hskgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Nepali)",
+      "book_code": "hnpgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hnpgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Konkani)",
+      "book_code": "hkogp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkogp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Kashmiri)",
+      "book_code": "hksgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hksgp2=0-7"
+    },
+    {
+      "title": "Ganita Prakash Part-II(Maithili)",
+      "book_code": "hmtgp2",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmtgp2=0-7"
+    },
+    {
+      "title": "Mathematics",
+      "book_code": "hemh1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hemh1=0-13"
+    },
+    {
+      "title": "Ganit",
+      "book_code": "hhmh1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhmh1=0-13"
+    },
+    {
+      "title": "Riyazi(Urdu)",
+      "book_code": "huhi1",
+      "first_chapter": 0,
+      "last_chapter": 16,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?huhi1=0-16"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

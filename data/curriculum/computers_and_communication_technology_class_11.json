@@ -1,0 +1,64 @@
+{
+  "subject": "computers_and_communication_technology",
+  "subject_label": "Computers and Communication Technology",
+  "class": 11,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "CCT Part-I",
+    "book_code": "kect1",
+    "first_chapter": 0,
+    "last_chapter": 8,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?kect1=0-8"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "CCT Part-I",
+      "book_code": "kect1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kect1=0-8"
+    },
+    {
+      "title": "CCT Part-II",
+      "book_code": "kect2",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kect2=0-6"
+    },
+    {
+      "title": "Computer aur Sanchar Prodhogiki Part-I",
+      "book_code": "khct1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khct1=0-8"
+    },
+    {
+      "title": "Computer aur Sanchar Prodhogiki Part-II",
+      "book_code": "khct2",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khct2=0-6"
+    },
+    {
+      "title": "Computer Aur Muwaslati Technology I",
+      "book_code": "kuct1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuct1=0-8"
+    },
+    {
+      "title": "Computer Aur Muwaslati Technology II",
+      "book_code": "kuct2",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuct2=0-6"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

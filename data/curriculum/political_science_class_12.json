@@ -1,0 +1,64 @@
+{
+  "subject": "political_science",
+  "subject_label": "Political Science",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Contemporary World Politics",
+    "book_code": "leps1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?leps1=0-7"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Contemporary World Politics",
+      "book_code": "leps1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?leps1=0-7"
+    },
+    {
+      "title": "Samkalin Vishwa Rajniti",
+      "book_code": "lhps1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhps1=0-7"
+    },
+    {
+      "title": "Politics in India Since Independence",
+      "book_code": "leps2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?leps2=0-8"
+    },
+    {
+      "title": "Swatantra Bharat Mein Rajniti-II",
+      "book_code": "lhps2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhps2=0-8"
+    },
+    {
+      "title": "Aasri Alami Siyasat(Urdu)",
+      "book_code": "lups1",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lups1=0-9"
+    },
+    {
+      "title": "Azadi Ke Baad Hindustan Ki Siyasat(Urdu)",
+      "book_code": "luab1",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luab1=0-9"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

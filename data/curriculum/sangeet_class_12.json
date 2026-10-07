@@ -1,0 +1,36 @@
+{
+  "subject": "sangeet",
+  "subject_label": "Sangeet",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Tabla evam Pakhawaj",
+    "book_code": "lstp1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?lstp1=0-7"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Tabla evam Pakhawaj",
+      "book_code": "lstp1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lstp1=0-7"
+    },
+    {
+      "title": "Hindustani Sangeet Gayan Evam Vaadan",
+      "book_code": "lsgv1",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lsgv1=0-9"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

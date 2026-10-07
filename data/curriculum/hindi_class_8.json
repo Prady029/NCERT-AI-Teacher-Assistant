@@ -1,0 +1,57 @@
+{
+  "subject": "hindi",
+  "subject_label": "Hindi",
+  "class": 8,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Malhar",
+    "book_code": "hhml1",
+    "first_chapter": 0,
+    "last_chapter": 10,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?hhml1=0-10"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Malhar",
+      "book_code": "hhml1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhml1=0-10"
+    },
+    {
+      "title": "Vasant",
+      "book_code": "hhvs1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhvs1=0-13"
+    },
+    {
+      "title": "Durva",
+      "book_code": "hhdv1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhdv1=0-19"
+    },
+    {
+      "title": "Bharat Ki Khoj",
+      "book_code": "hhbk1",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhbk1=0-9"
+    },
+    {
+      "title": "Sanshipt Budhcharit",
+      "book_code": "hhsb1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhsb1=0-5"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

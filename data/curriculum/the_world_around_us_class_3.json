@@ -1,0 +1,183 @@
+{
+  "subject": "the_world_around_us",
+  "subject_label": "The World Around Us",
+  "class": 3,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Our Wondrous World",
+    "book_code": "ceev1",
+    "first_chapter": 0,
+    "last_chapter": 12,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?ceev1=0-12"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Our Wondrous World",
+      "book_code": "ceev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ceev1=0-12"
+    },
+    {
+      "title": "Hamara Adhbhut Sansar",
+      "book_code": "chev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?chev1=0-12"
+    },
+    {
+      "title": "Hamari Hairat Angez Duniya",
+      "book_code": "cuev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cuev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Bengali)",
+      "book_code": "cbnev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cbnev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Odia)",
+      "book_code": "corev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?corev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Marathi)",
+      "book_code": "cmrev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmrev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Nepali)",
+      "book_code": "cnpev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cnpev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Telugu)",
+      "book_code": "ctlev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ctlev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Gujrati)",
+      "book_code": "cgjev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cgjev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Manipuri)",
+      "book_code": "cmnev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmnev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Sanskrit)",
+      "book_code": "cskev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cskev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Assamese)",
+      "book_code": "casev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?casev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Bodo)",
+      "book_code": "cbdev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cbdev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Punjabi)",
+      "book_code": "cpnev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cpnev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Malayalam)",
+      "book_code": "cmlev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmlev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Maithili)",
+      "book_code": "cmtev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmtev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Dogri)",
+      "book_code": "cdgev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cdgev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Kannada)",
+      "book_code": "cknev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cknev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Santhali)",
+      "book_code": "csnev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?csnev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Tamil)",
+      "book_code": "ctmev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ctmev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Sindhi)",
+      "book_code": "csiev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?csiev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Kashmiri)",
+      "book_code": "cksev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cksev1=0-12"
+    },
+    {
+      "title": "Our Wondrous World (Konkani)",
+      "book_code": "ckoev1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ckoev1=0-12"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

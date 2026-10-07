@@ -1,0 +1,183 @@
+{
+  "subject": "physical_education_and_well_being",
+  "subject_label": "Physical Education and Well Being",
+  "class": 8,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Khel Yatra",
+    "book_code": "heky1",
+    "first_chapter": 0,
+    "last_chapter": 6,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?heky1=0-6"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Khel Yatra",
+      "book_code": "heky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?heky1=0-6"
+    },
+    {
+      "title": "Khel Yatra ( Hindi)",
+      "book_code": "hhky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Urdu)",
+      "book_code": "huky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?huky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Punjabi)",
+      "book_code": "hpnky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hpnky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Marathi)",
+      "book_code": "hmrky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmrky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Odia)",
+      "book_code": "horky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?horky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Malayalam)",
+      "book_code": "hmlky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmlky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Gujarati)",
+      "book_code": "hgjky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hgjky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Sanskrit)",
+      "book_code": "hskky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hskky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Nepali)",
+      "book_code": "hnpky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hnpky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Tamil)",
+      "book_code": "htmky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htmky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Bengali)",
+      "book_code": "hbnky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbnky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Dogri)",
+      "book_code": "hdgky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hdgky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Bodo)",
+      "book_code": "hbdky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbdky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Kannada)",
+      "book_code": "hknky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hknky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Telugu)",
+      "book_code": "htlky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htlky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Manipuri)",
+      "book_code": "hmnky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmnky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Maithili)",
+      "book_code": "hmtky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmtky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Assamese)",
+      "book_code": "hasky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hasky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Kashmiri)",
+      "book_code": "hksky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hksky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Konkani)",
+      "book_code": "hkoky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkoky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Sindhi)",
+      "book_code": "hsiky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsiky1=0-6"
+    },
+    {
+      "title": "Khel Yatra (Santhali)",
+      "book_code": "hsnky1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsnky1=0-6"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

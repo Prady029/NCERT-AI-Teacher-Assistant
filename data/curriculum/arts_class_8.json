@@ -1,0 +1,183 @@
+{
+  "subject": "arts",
+  "subject_label": "Arts",
+  "class": 8,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Kriti",
+    "book_code": "hekr1",
+    "first_chapter": 0,
+    "last_chapter": 19,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?hekr1=0-19"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Kriti",
+      "book_code": "hekr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hekr1=0-19"
+    },
+    {
+      "title": "Kriti (Hindi)",
+      "book_code": "hhkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhkr1=0-19"
+    },
+    {
+      "title": "Kriti (Urdu)",
+      "book_code": "hukr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hukr1=0-19"
+    },
+    {
+      "title": "Kriti (Marathi)",
+      "book_code": "hmrkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmrkr1=0-19"
+    },
+    {
+      "title": "Kriti (Tamil)",
+      "book_code": "htmkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htmkr1=0-19"
+    },
+    {
+      "title": "Kriti (Punjabi)",
+      "book_code": "hpnkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hpnkr1=0-19"
+    },
+    {
+      "title": "Kriti (Nepali)",
+      "book_code": "hnpkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hnpkr1=0-19"
+    },
+    {
+      "title": "Kriti (Odia)",
+      "book_code": "horkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?horkr1=0-19"
+    },
+    {
+      "title": "Kriti (Dogri)",
+      "book_code": "hdgkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hdgkr1=0-19"
+    },
+    {
+      "title": "Kriti (Kannada)",
+      "book_code": "hknkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hknkr1=0-19"
+    },
+    {
+      "title": "Kriti (Malayalam)",
+      "book_code": "hmlkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmlkr1=0-19"
+    },
+    {
+      "title": "Kriti (Bodo)",
+      "book_code": "hbdkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbdkr1=0-19"
+    },
+    {
+      "title": "Kriti (Bengali)",
+      "book_code": "hbnkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbnkr1=0-19"
+    },
+    {
+      "title": "Kriti (Telugu)",
+      "book_code": "htlkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htlkr1=0-19"
+    },
+    {
+      "title": "Kriti (Assamese)",
+      "book_code": "haskr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?haskr1=0-19"
+    },
+    {
+      "title": "Kriti (Kashmiri)",
+      "book_code": "hkskr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkskr1=0-19"
+    },
+    {
+      "title": "Kriti (Sanskrit)",
+      "book_code": "hskkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hskkr1=0-19"
+    },
+    {
+      "title": "Kriti (Gujarati)",
+      "book_code": "hgjkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hgjkr1=0-19"
+    },
+    {
+      "title": "Kriti (Konkani)",
+      "book_code": "hkokr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkokr1=0-19"
+    },
+    {
+      "title": "Kriti (Santhali)",
+      "book_code": "hsnkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsnkr1=0-19"
+    },
+    {
+      "title": "Kriti (Maithili)",
+      "book_code": "hmtkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmtkr1=0-19"
+    },
+    {
+      "title": "Kriti (Manipuri)",
+      "book_code": "hmnkr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmnkr1=0-19"
+    },
+    {
+      "title": "Kriti (Sindhi)",
+      "book_code": "hsikr1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsikr1=0-19"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

@@ -1,0 +1,64 @@
+{
+  "subject": "sociology",
+  "subject_label": "Sociology",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Indian Society",
+    "book_code": "lesy1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?lesy1=0-7"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Indian Society",
+      "book_code": "lesy1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lesy1=0-7"
+    },
+    {
+      "title": "Bhartiya Samaj",
+      "book_code": "lhsy1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhsy1=0-7"
+    },
+    {
+      "title": "Social Change and Development in India",
+      "book_code": "lesy2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lesy2=0-8"
+    },
+    {
+      "title": "Bharat main Samajik Parivartan aur Vikas",
+      "book_code": "lhsy2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhsy2=0-8"
+    },
+    {
+      "title": "Hindustani Samaj(Urdu)",
+      "book_code": "luis1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luis1=0-7"
+    },
+    {
+      "title": "Hindustan Mein Samaji Tabdili Aur Taraqqi(Urdu)",
+      "book_code": "lusy2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lusy2=0-8"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

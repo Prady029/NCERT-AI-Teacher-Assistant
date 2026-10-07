@@ -1,0 +1,29 @@
+{
+  "subject": "new_age_graphics_design",
+  "subject_label": "New Age Graphics Design",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "New Age Graphics Design",
+    "book_code": "legd1",
+    "first_chapter": 0,
+    "last_chapter": 12,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?legd1=0-12"
+  },
+  "primary_book_selection": "exact subject-title match",
+  "books": [
+    {
+      "title": "New Age Graphics Design",
+      "book_code": "legd1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?legd1=0-12"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

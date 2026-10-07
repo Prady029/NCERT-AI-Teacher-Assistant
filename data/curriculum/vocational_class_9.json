@@ -1,0 +1,92 @@
+{
+  "subject": "vocational",
+  "subject_label": "Vocational",
+  "class": 9,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Cashier",
+    "book_code": "ievc1",
+    "first_chapter": 0,
+    "last_chapter": 5,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?ievc1=0-5"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Cashier",
+      "book_code": "ievc1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ievc1=0-5"
+    },
+    {
+      "title": "Store Operations Assistant",
+      "book_code": "ieva1",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ieva1=0-4"
+    },
+    {
+      "title": "Solanceous Crop Cultivator",
+      "book_code": "ievs1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ievs1=0-5"
+    },
+    {
+      "title": "Assistant Beauty Therapist",
+      "book_code": "ievt1",
+      "first_chapter": 0,
+      "last_chapter": 3,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ievt1=0-3"
+    },
+    {
+      "title": "Animal Health Workers (Agriculture)",
+      "book_code": "ievw1",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ievw1=0-4"
+    },
+    {
+      "title": "Hand Embroiderer (Addawala)",
+      "book_code": "ieve1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ieve1=0-5"
+    },
+    {
+      "title": "Hand Embroiderer",
+      "book_code": "ievh1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ievh1=0-5"
+    },
+    {
+      "title": "Plumber General",
+      "book_code": "iepg1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?iepg1=0-5"
+    },
+    {
+      "title": "IT Domestic Data Entry Operator",
+      "book_code": "ieeo1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ieeo1=0-5"
+    },
+    {
+      "title": "Employability Skill",
+      "book_code": "iees1",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?iees1=0-5"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

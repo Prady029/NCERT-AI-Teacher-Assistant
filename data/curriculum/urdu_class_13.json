@@ -1,0 +1,43 @@
+{
+  "subject": "urdu",
+  "subject_label": "Urdu",
+  "class": 13,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Zuban-O-Adab ki Tareekh",
+    "book_code": "kuza1",
+    "first_chapter": 0,
+    "last_chapter": 23,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?kuza1=0-23"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Zuban-O-Adab ki Tareekh",
+      "book_code": "kuza1",
+      "first_chapter": 0,
+      "last_chapter": 23,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuza1=0-23"
+    },
+    {
+      "title": "Urdu Qwaid aur Insha",
+      "book_code": "juuq1",
+      "first_chapter": 0,
+      "last_chapter": 24,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?juuq1=0-24"
+    },
+    {
+      "title": "Izhar Aur Zara-e-Izhar",
+      "book_code": "kuiz1",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuiz1=0-4"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

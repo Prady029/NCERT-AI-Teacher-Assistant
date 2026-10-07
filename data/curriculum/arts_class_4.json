@@ -1,0 +1,183 @@
+{
+  "subject": "arts",
+  "subject_label": "Arts",
+  "class": 4,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Bansuri",
+    "book_code": "debu1",
+    "first_chapter": 0,
+    "last_chapter": 18,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?debu1=0-18"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Bansuri",
+      "book_code": "debu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?debu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Hindi)",
+      "book_code": "dhbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dhbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Urdu)",
+      "book_code": "dubu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dubu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Odia)",
+      "book_code": "dorbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dorbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Gujarati)",
+      "book_code": "dgjbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dgjbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Punjabi)",
+      "book_code": "dpnbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dpnbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Sindhi)",
+      "book_code": "dsibu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dsibu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Tamil)",
+      "book_code": "dtmbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dtmbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Bodo)",
+      "book_code": "dbdbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dbdbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Nepali)",
+      "book_code": "dnpbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dnpbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Konkani)",
+      "book_code": "dkobu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dkobu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Assamese)",
+      "book_code": "dasbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dasbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Bengali)",
+      "book_code": "dbnbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dbnbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Dogri)",
+      "book_code": "ddgbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ddgbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Manipuri)",
+      "book_code": "dmnbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmnbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Sanskrit)",
+      "book_code": "dskbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dskbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Malayalam)",
+      "book_code": "dmlbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmlbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Kannada)",
+      "book_code": "dknbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dknbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Kashmiri)",
+      "book_code": "dksbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dksbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Maithili)",
+      "book_code": "dmtbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmtbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Marathi)",
+      "book_code": "dmrbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmrbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Santhali)",
+      "book_code": "dsnbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dsnbu1=0-18"
+    },
+    {
+      "title": "Bansuri - I (Telugu)",
+      "book_code": "dtlbu1",
+      "first_chapter": 0,
+      "last_chapter": 18,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dtlbu1=0-18"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

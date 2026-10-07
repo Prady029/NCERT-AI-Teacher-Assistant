@@ -1,0 +1,204 @@
+{
+  "subject": "mathematics",
+  "subject_label": "Mathematics",
+  "class": 4,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Math-Magic",
+    "book_code": "demh1",
+    "first_chapter": 0,
+    "last_chapter": 14,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?demh1=0-14"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Math-Magic",
+      "book_code": "demh1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?demh1=0-14"
+    },
+    {
+      "title": "Ganit Ka Jadu",
+      "book_code": "dhmh1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dhmh1=0-14"
+    },
+    {
+      "title": "Riyazi Ka Jadu(Urdu)",
+      "book_code": "duri1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?duri1=0-14"
+    },
+    {
+      "title": "Math-Mela",
+      "book_code": "demm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?demm1=0-14"
+    },
+    {
+      "title": "Ganit Mela",
+      "book_code": "dhmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dhmm1=0-14"
+    },
+    {
+      "title": "Riyazi Mela",
+      "book_code": "dumm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dumm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Maithili)",
+      "book_code": "dmtmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmtmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Punjabi)",
+      "book_code": "dpnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dpnmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Gujarati)",
+      "book_code": "dgjmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dgjmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Dogri)",
+      "book_code": "ddgmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ddgmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Nepali)",
+      "book_code": "dnpmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dnpmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Manipuri)",
+      "book_code": "dmnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmnmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Assamese)",
+      "book_code": "dasmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dasmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Sindhi)",
+      "book_code": "dsimm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dsimm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Odia)",
+      "book_code": "dormm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dormm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Bodo)",
+      "book_code": "dbdmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dbdmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Bengali)",
+      "book_code": "dbnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dbnmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Marathi)",
+      "book_code": "dmrmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmrmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Kannada)",
+      "book_code": "dknmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dknmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Malayalam)",
+      "book_code": "dmlmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dmlmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Sanskrit)",
+      "book_code": "dskmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dskmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Tamil)",
+      "book_code": "dtmmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dtmmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Santhali)",
+      "book_code": "dsnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dsnmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Telugu)",
+      "book_code": "dtlmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dtlmm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Konkani)",
+      "book_code": "dkomm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dkomm1=0-14"
+    },
+    {
+      "title": "Math-Mela (Kashmiri)",
+      "book_code": "dksmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?dksmm1=0-14"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

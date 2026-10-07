@@ -9,23 +9,69 @@ from pydantic import BaseModel, Field
 
 
 class Subject(str, Enum):
-    """Supported subjects."""
-    SCIENCE = "science"
-    SOCIAL_SCIENCE = "social_science"
-    PHYSICS = "physics"
-    CHEMISTRY = "chemistry"
+    """Subject slugs matching the downloaded NCERT curriculum maps.
+
+    Values are derived from the NCERT textbook catalogue subject labels (see
+    ``data/curriculum/catalogue_index.json``). The curriculum endpoint serves a
+    map only when the matching ``data/curriculum/<slug>_class_<n>.json`` exists.
+    """
+
+    ACCOUNTANCY = "accountancy"
+    ARTS = "arts"
     BIOLOGY = "biology"
-    MATHEMATICS = "mathematics"
-    HISTORY = "history"
-    GEOGRAPHY = "geography"
-    POLITICAL_SCIENCE = "political_science"
+    BIOTECHNOLOGY = "biotechnology"
+    BUSINESS_STUDIES = "business_studies"
+    CHEMISTRY = "chemistry"
+    COMPUTER_SCIENCE = "computer_science"
+    COMPUTERS_AND_COMMUNICATION_TECHNOLOGY = "computers_and_communication_technology"
+    CREATIVE_WRITING_AND_TRANSLATION = "creative_writing_and_translation"
+    CREATIVE_WRITING_TRANSLATION = "creative_writing_translation"
     ECONOMICS = "economics"
     ENGLISH = "english"
+    ENVIRONMENTAL_STUDIES = "environmental_studies"
+    FINE_ART = "fine_art"
+    GEOGRAPHY = "geography"
+    GRAPHICS_DESIGN = "graphics_design"
+    HEALTH_AND_PHYSICAL_EDUCATION = "health_and_physical_education"
+    HERITAGE_CRAFTS = "heritage_crafts"
     HINDI = "hindi"
+    HISTORY = "history"
+    HOME_SCIENCE = "home_science"
+    INFORMATICS_PRACTICES = "informatics_practices"
+    KANNADA = "kannada"
+    KNOWLEDGE_TRADITIONS_PRACTICES_OF_INDIA = "knowledge_traditions_practices_of_india"
+    MALAYALAM = "malayalam"
+    MARATHI = "marathi"
+    MATHEMATICS = "mathematics"
+    NEPALI = "nepali"
+    NEW_AGE_GRAPHICS_DESIGN = "new_age_graphics_design"
+    PHYSICAL_EDUCATION_AND_WELL_BEING = "physical_education_and_well_being"
+    PHYSICS = "physics"
+    POLITICAL_SCIENCE = "political_science"
+    PSYCHOLOGY = "psychology"
+    SANGEET = "sangeet"
+    SANSKRIT = "sanskrit"
+    SANTHALI = "santhali"
+    SCIENCE = "science"
+    SKILL_EDUCATION = "skill_education"
+    SOCIAL_SCIENCE = "social_science"
+    SOCIOLOGY = "sociology"
+    TAMIL = "tamil"
+    THE_WORLD_AROUND_US = "the_world_around_us"
+    URDU = "urdu"
+    VOCATIONAL = "vocational"
+    VOCATIONAL_EDUCATION = "vocational_education"
 
 
 class ClassLevel(int, Enum):
-    """Supported class levels."""
+    """Class levels present in the NCERT textbook catalogue (1-12, plus
+    pre-vocational 13 and vocational 14)."""
+
+    CLASS_1 = 1
+    CLASS_2 = 2
+    CLASS_3 = 3
+    CLASS_4 = 4
+    CLASS_5 = 5
     CLASS_6 = 6
     CLASS_7 = 7
     CLASS_8 = 8
@@ -33,6 +79,8 @@ class ClassLevel(int, Enum):
     CLASS_10 = 10
     CLASS_11 = 11
     CLASS_12 = 12
+    PRE_VOCATIONAL = 13
+    VOCATIONAL = 14
 
 
 class DifficultyLevel(str, Enum):

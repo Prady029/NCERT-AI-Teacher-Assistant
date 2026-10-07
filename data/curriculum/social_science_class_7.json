@@ -1,0 +1,344 @@
+{
+  "subject": "social_science",
+  "subject_label": "Social Science",
+  "class": 7,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Exploring Society India and Beyond Part-I",
+    "book_code": "gees1",
+    "first_chapter": 0,
+    "last_chapter": 12,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?gees1=0-12"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Exploring Society India and Beyond Part-I",
+      "book_code": "gees1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gees1=0-12"
+    },
+    {
+      "title": "Samaj Ka Aadhyan: Bharat or uske aage Part-I",
+      "book_code": "ghes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ghes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II",
+      "book_code": "gees2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gees2=0-8"
+    },
+    {
+      "title": "Samaj Ka Aadhyan: Bharat or uske aage Part-II",
+      "book_code": "ghes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ghes2=0-8"
+    },
+    {
+      "title": "Muashrey ki Daryaft - Hindustan aur Uske age Part-I",
+      "book_code": "gues1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gues1=0-12"
+    },
+    {
+      "title": "Muashrey ki Daryaft - Hindustan aur Uske age Part-II",
+      "book_code": "gues2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gues2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Odia)",
+      "book_code": "gores1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gores1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Marathi)",
+      "book_code": "gmres1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmres1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Punjabi)",
+      "book_code": "gpnes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gpnes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Konkani)",
+      "book_code": "gkoes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gkoes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Malayalam)",
+      "book_code": "gmles1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmles1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Kannada)",
+      "book_code": "gknes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gknes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Dogri)",
+      "book_code": "gdges1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gdges1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Manipuri)",
+      "book_code": "gmnes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmnes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Nepali)",
+      "book_code": "gnpes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gnpes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Sanskrit)",
+      "book_code": "gskes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gskes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Maithili)",
+      "book_code": "gmtes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmtes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Assamese)",
+      "book_code": "gases1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gases1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Bengali)",
+      "book_code": "gbnes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gbnes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Bodo)",
+      "book_code": "gbdes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gbdes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Gujarati)",
+      "book_code": "ggjes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ggjes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Tamil)",
+      "book_code": "gtmes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gtmes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Santhali)",
+      "book_code": "gsnes1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gsnes1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Sindhi)",
+      "book_code": "gsies1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gsies1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Telugu)",
+      "book_code": "gtles1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gtles1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-I (Kashmiri)",
+      "book_code": "gkses1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gkses1=0-12"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Gujarati)",
+      "book_code": "ggjes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ggjes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Kannada)",
+      "book_code": "gknes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gknes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Odia)",
+      "book_code": "gores2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gores2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Punjabi)",
+      "book_code": "gpnes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gpnes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Bengali)",
+      "book_code": "gbnes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gbnes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Tamil)",
+      "book_code": "gtmes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gtmes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Malayalam)",
+      "book_code": "gmles2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmles2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Assamese)",
+      "book_code": "gases2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gases2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Marathi)",
+      "book_code": "gmres2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmres2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Telugu)",
+      "book_code": "gmres2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmres2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Sanskrit)",
+      "book_code": "gskes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gskes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Konkani)",
+      "book_code": "gkoes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gkoes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Manipuri)",
+      "book_code": "gmnes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmnes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Sindhi)",
+      "book_code": "gsies2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gsies2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Nepali)",
+      "book_code": "gnpes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gnpes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Bodo)",
+      "book_code": "gbdes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gbdes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Kashmiri)",
+      "book_code": "gkses2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gkses2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Santhali)",
+      "book_code": "gsnes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gsnes2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Dogri)",
+      "book_code": "gdges2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gdges2=0-8"
+    },
+    {
+      "title": "Exploring Society India and Beyond Part-II (Maithili)",
+      "book_code": "gmtes2",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?gmtes2=0-8"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

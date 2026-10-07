@@ -1,0 +1,50 @@
+{
+  "subject": "urdu",
+  "subject_label": "Urdu",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Gulistan-e- Adab",
+    "book_code": "luga1",
+    "first_chapter": 0,
+    "last_chapter": 12,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?luga1=0-12"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Gulistan-e- Adab",
+      "book_code": "luga1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luga1=0-12"
+    },
+    {
+      "title": "Khayaban-e-Urdu",
+      "book_code": "luku1",
+      "first_chapter": 0,
+      "last_chapter": 6,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luku1=0-6"
+    },
+    {
+      "title": "Nai Awaz",
+      "book_code": "luna1",
+      "first_chapter": 0,
+      "last_chapter": 16,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?luna1=0-16"
+    },
+    {
+      "title": "Dhanak",
+      "book_code": "ludh1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ludh1=0-12"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

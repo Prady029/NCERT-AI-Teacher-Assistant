@@ -1,0 +1,183 @@
+{
+  "subject": "mathematics",
+  "subject_label": "Mathematics",
+  "class": 1,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Joyful-Mathematics (English)",
+    "book_code": "aejm1",
+    "first_chapter": 0,
+    "last_chapter": 13,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?aejm1=0-13"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Joyful-Mathematics (English)",
+      "book_code": "aejm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aejm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Hindi)",
+      "book_code": "ahjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ahjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Marathi)",
+      "book_code": "amrjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?amrjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Sindhi)",
+      "book_code": "asijm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?asijm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Punjabi)",
+      "book_code": "apjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?apjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Gujarati)",
+      "book_code": "agjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?agjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Malayalam)",
+      "book_code": "ayjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ayjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Konkani)",
+      "book_code": "akjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?akjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Assamese)",
+      "book_code": "aajm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aajm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Maithili)",
+      "book_code": "aijm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aijm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Bodo)",
+      "book_code": "aojm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aojm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Sanskrit)",
+      "book_code": "askjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?askjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Oriya)",
+      "book_code": "aorjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aorjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Bengali)",
+      "book_code": "abnjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?abnjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Santhali)",
+      "book_code": "asnjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?asnjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Manipuri)",
+      "book_code": "amnjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?amnjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Urdu)",
+      "book_code": "aujm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aujm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Nepali)",
+      "book_code": "anpjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?anpjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Telugu)",
+      "book_code": "atljm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?atljm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Kannada)",
+      "book_code": "aknjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aknjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Tamil)",
+      "book_code": "atmjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?atmjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Dogri)",
+      "book_code": "adgjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?adgjm1=0-13"
+    },
+    {
+      "title": "Joyful-Mathematics (Kashmiri)",
+      "book_code": "aksjm1",
+      "first_chapter": 0,
+      "last_chapter": 13,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?aksjm1=0-13"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

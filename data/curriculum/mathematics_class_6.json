@@ -1,0 +1,183 @@
+{
+  "subject": "mathematics",
+  "subject_label": "Mathematics",
+  "class": 6,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Ganita Prakash",
+    "book_code": "fegp1",
+    "first_chapter": 0,
+    "last_chapter": 10,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?fegp1=0-10"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Ganita Prakash",
+      "book_code": "fegp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fegp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Hindi)",
+      "book_code": "fhgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fhgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Odia)",
+      "book_code": "forgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?forgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Bodo)",
+      "book_code": "fbdgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fbdgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Malayalam)",
+      "book_code": "fmlgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmlgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Punjabi)",
+      "book_code": "fpngp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fpngp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Sanskrit)",
+      "book_code": "fskgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fskgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Kannada)",
+      "book_code": "fkngp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fkngp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Tamil)",
+      "book_code": "ftmgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ftmgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Marathi)",
+      "book_code": "fmrgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmrgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Bengali)",
+      "book_code": "fbngp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fbngp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Telugu)",
+      "book_code": "ftlgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ftlgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Maithili)",
+      "book_code": "fmtgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmtgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Dogri)",
+      "book_code": "fdggp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fdggp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Nepali)",
+      "book_code": "fnpgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fnpgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Urdu)",
+      "book_code": "fugp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fugp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Assamese)",
+      "book_code": "fasgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fasgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Gujarati)",
+      "book_code": "fgjgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fgjgp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Manipuri)",
+      "book_code": "fmngp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmngp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Konkani)",
+      "book_code": "fkogp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fkogp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Santhali)",
+      "book_code": "fsngp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fsngp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Sindhi)",
+      "book_code": "fsigp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fsigp1=0-10"
+    },
+    {
+      "title": "Ganita Prakash (Kashmiri)",
+      "book_code": "fksgp1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fksgp1=0-10"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

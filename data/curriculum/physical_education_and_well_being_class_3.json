@@ -1,0 +1,183 @@
+{
+  "subject": "physical_education_and_well_being",
+  "subject_label": "Physical Education and Well Being",
+  "class": 3,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Khel Yoga",
+    "book_code": "ceky1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?ceky1=0-7"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Khel Yoga",
+      "book_code": "ceky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ceky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Hindi)",
+      "book_code": "chky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?chky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Malayalam)",
+      "book_code": "cmlky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmlky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Bengali)",
+      "book_code": "cbnky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cbnky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Gujarati)",
+      "book_code": "cgjky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cgjky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Kannada)",
+      "book_code": "cknky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cknky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Konkani)",
+      "book_code": "ckoky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ckoky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Manipuri)",
+      "book_code": "cmnky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmnky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Nepali)",
+      "book_code": "cnpky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cnpky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Odia)",
+      "book_code": "corky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?corky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Assamese)",
+      "book_code": "casky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?casky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Dogri)",
+      "book_code": "cdgky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cdgky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Punjabi)",
+      "book_code": "cpnky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cpnky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Sanskrit)",
+      "book_code": "cskky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cskky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Santhali)",
+      "book_code": "csnky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?csnky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Tamil)",
+      "book_code": "ctmky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ctmky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Marathi)",
+      "book_code": "cmrky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmrky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Bodo)",
+      "book_code": "cbdky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cbdky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Telugu)",
+      "book_code": "ctlky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ctlky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Maithili)",
+      "book_code": "cmtky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmtky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Urdu)",
+      "book_code": "cuky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cuky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Sindhi)",
+      "book_code": "csiky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?csiky1=0-7"
+    },
+    {
+      "title": "Khel Yoga (Kashmiri)",
+      "book_code": "cksky1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cksky1=0-7"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

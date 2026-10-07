@@ -1,0 +1,335 @@
+{
+  "status": "unverified_draft",
+  "verified": false,
+  "source": "hand_written_draft",
+  "draft_warning": "UNVERIFIED DRAFT. Author-written chapter names, learning outcomes, and weightage were not checked against the current NCERT textbook or CBSE syllabus and may be outdated (chapter numbering has changed across rationalisation exercises). Do not expose this to teachers as authoritative. The catalogue-derived file at ../science_class_*.json holds the verified book code and chapter range.",
+  "subject": "science",
+  "class": 9,
+  "language": "english",
+  "textbook_title": "NCERT Science Class 9",
+  "chapters": [
+    {
+      "number": 1,
+      "name": "Matter in Our Surroundings",
+      "learning_outcomes": [
+        "Define matter and its characteristics",
+        "Explain states of matter and interconversion",
+        "Understand effect of temperature and pressure on states",
+        "Describe evaporation and factors affecting it"
+      ],
+      "weightage": 5,
+      "key_concepts": [
+        "Physical nature of matter",
+        "Characteristics of particles of matter",
+        "States of matter: solid, liquid, gas",
+        "Change of state: melting, boiling, sublimation",
+        "Evaporation vs boiling"
+      ],
+      "ncert_pages": "1-12"
+    },
+    {
+      "number": 2,
+      "name": "Is Matter Around Us Pure?",
+      "learning_outcomes": [
+        "Distinguish between mixtures and pure substances",
+        "Classify mixtures: homogeneous, heterogeneous",
+        "Understand solutions, suspensions, colloids",
+        "Explain separation techniques"
+      ],
+      "weightage": 6,
+      "key_concepts": [
+        "Pure substances: elements, compounds",
+        "Mixtures: types and properties",
+        "Solution: solute, solvent, concentration",
+        "Suspension and colloids: Tyndall effect",
+        "Separation techniques: evaporation, centrifugation, chromatography, distillation"
+      ],
+      "ncert_pages": "13-28"
+    },
+    {
+      "number": 3,
+      "name": "Atoms and Molecules",
+      "learning_outcomes": [
+        "State laws of chemical combination",
+        "Understand Dalton's atomic theory",
+        "Define atomic mass, molecular mass, mole concept",
+        "Calculate formula unit mass and percentage composition"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Laws: conservation of mass, definite proportions, multiple proportions",
+        "Dalton's atomic theory postulates",
+        "Atoms, molecules, ions",
+        "Atomic mass, molecular mass",
+        "Mole concept and Avogadro's number",
+        "Chemical formulae and valency"
+      ],
+      "ncert_pages": "29-45"
+    },
+    {
+      "number": 4,
+      "name": "Structure of the Atom",
+      "learning_outcomes": [
+        "Describe discovery of electron, proton, neutron",
+        "Compare Thomson, Rutherford, Bohr models",
+        "Understand atomic number, mass number, isotopes, isobars",
+        "Explain electronic configuration"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Discovery of subatomic particles",
+        "Atomic models: Thomson, Rutherford, Bohr",
+        "Atomic number (Z), mass number (A)",
+        "Isotopes, isobars, isotones",
+        "Electronic configuration (Bohr-Bury scheme)",
+        "Valency"
+      ],
+      "ncert_pages": "46-62"
+    },
+    {
+      "number": 5,
+      "name": "The Fundamental Unit of Life",
+      "learning_outcomes": [
+        "Describe cell as basic unit of life",
+        "Compare plant and animal cells",
+        "Explain cell organelles and their functions",
+        "Understand cell division: mitosis, meiosis"
+      ],
+      "weightage": 8,
+      "key_concepts": [
+        "Cell theory",
+        "Prokaryotic vs eukaryotic cells",
+        "Cell organelles: nucleus, mitochondria, plastids, ER, Golgi, lysosomes, vacuoles",
+        "Cell membrane and cell wall",
+        "Cell division: mitosis (somatic), meiosis (gametes)"
+      ],
+      "ncert_pages": "63-80"
+    },
+    {
+      "number": 6,
+      "name": "Tissues",
+      "learning_outcomes": [
+        "Define tissue and its types in plants and animals",
+        "Explain plant tissues: meristematic, permanent",
+        "Explain animal tissues: epithelial, connective, muscular, nervous"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Plant tissues: meristematic (apical, lateral, intercalary), permanent (simple, complex)",
+        "Animal tissues: epithelial (types), connective (types), muscular (types), nervous",
+        "Structure-function relationship"
+      ],
+      "ncert_pages": "81-98"
+    },
+    {
+      "number": 7,
+      "name": "Diversity in Living Organisms",
+      "learning_outcomes": [
+        "Understand basis of classification",
+        "Explain hierarchy: kingdom, phylum, class, order, family, genus, species",
+        "Describe five kingdom classification",
+        "Classify plants and animals into major groups"
+      ],
+      "weightage": 8,
+      "key_concepts": [
+        "Need for classification",
+        "Taxonomic hierarchy",
+        "Five kingdoms: Monera, Protista, Fungi, Plantae, Animalia",
+        "Plant divisions: Thallophyta, Bryophyta, Pteridophyta, Gymnosperms, Angiosperms",
+        "Animal phyla: Porifera to Chordata"
+      ],
+      "ncert_pages": "99-120"
+    },
+    {
+      "number": 8,
+      "name": "Motion",
+      "learning_outcomes": [
+        "Describe motion: distance, displacement, speed, velocity, acceleration",
+        "Interpret distance-time and velocity-time graphs",
+        "Derive equations of motion for uniform acceleration",
+        "Understand uniform circular motion"
+      ],
+      "weightage": 8,
+      "key_concepts": [
+        "Rest and motion are relative",
+        "Distance vs displacement",
+        "Speed vs velocity",
+        "Acceleration",
+        "Graphical representation: distance-time, velocity-time",
+        "Equations of motion: v = u + at, s = ut + ½at², v² = u² + 2as",
+        "Uniform circular motion"
+      ],
+      "ncert_pages": "121-140"
+    },
+    {
+      "number": 9,
+      "name": "Force and Laws of Motion",
+      "learning_outcomes": [
+        "State Newton's three laws of motion",
+        "Define inertia and momentum",
+        "Understand conservation of momentum",
+        "Apply F = ma and impulse-momentum theorem"
+      ],
+      "weightage": 8,
+      "key_concepts": [
+        "Force and its effects",
+        "Newton's first law: inertia",
+        "Newton's second law: F = ma",
+        "Newton's third law: action-reaction",
+        "Momentum: p = mv",
+        "Conservation of momentum",
+        "Impulse: FΔt = Δp"
+      ],
+      "ncert_pages": "141-158"
+    },
+    {
+      "number": 10,
+      "name": "Gravitation",
+      "learning_outcomes": [
+        "State universal law of gravitation",
+        "Understand free fall and acceleration due to gravity",
+        "Distinguish mass and weight",
+        "Explain buoyancy and Archimedes' principle"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Universal law of gravitation: F = Gm₁m₂/r²",
+        "Free fall: g = 9.8 m/s²",
+        "Mass vs weight",
+        "Thrust and pressure",
+        "Buoyancy and Archimedes' principle",
+        "Relative density"
+      ],
+      "ncert_pages": "159-175"
+    },
+    {
+      "number": 11,
+      "name": "Work and Energy",
+      "learning_outcomes": [
+        "Define work, energy, power",
+        "Understand kinetic and potential energy",
+        "State law of conservation of energy",
+        "Calculate power and commercial unit of energy"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Work: W = Fs cosθ",
+        "Energy: kinetic (½mv²), potential (mgh)",
+        "Law of conservation of energy",
+        "Power: P = W/t",
+        "Commercial unit: kWh"
+      ],
+      "ncert_pages": "176-192"
+    },
+    {
+      "number": 12,
+      "name": "Sound",
+      "learning_outcomes": [
+        "Understand production and propagation of sound",
+        "Describe characteristics: frequency, amplitude, speed",
+        "Explain reflection of sound: echo, reverberation",
+        "Understand range of hearing, ultrasound applications"
+      ],
+      "weightage": 6,
+      "key_concepts": [
+        "Sound as mechanical wave",
+        "Longitudinal wave: compression, rarefaction",
+        "Characteristics: pitch, loudness, quality",
+        "Speed of sound in different media",
+        "Reflection: echo, sonar, reverberation",
+        "Range of hearing: 20 Hz - 20 kHz",
+        "Ultrasound: medical, industrial applications"
+      ],
+      "ncert_pages": "193-208"
+    },
+    {
+      "number": 13,
+      "name": "Why Do We Fall Ill?",
+      "learning_outcomes": [
+        "Define health and disease",
+        "Classify diseases: acute, chronic, infectious, non-infectious",
+        "Understand pathogens and modes of transmission",
+        "Explain prevention and treatment principles"
+      ],
+      "weightage": 5,
+      "key_concepts": [
+        "Health vs disease-free",
+        "Disease classification",
+        "Infectious agents: bacteria, viruses, fungi, protozoa",
+        "Transmission: air, water, vectors, contact",
+        "Organ-specific and tissue-specific manifestations",
+        "Principles of treatment and prevention",
+        "Immunization"
+      ],
+      "ncert_pages": "209-222"
+    },
+    {
+      "number": 14,
+      "name": "Natural Resources",
+      "learning_outcomes": [
+        "Understand Earth's resources: air, water, soil",
+        "Explain biogeochemical cycles: water, nitrogen, carbon, oxygen",
+        "Describe air, water, soil pollution and prevention",
+        "Understand ozone depletion and greenhouse effect"
+      ],
+      "weightage": 5,
+      "key_concepts": [
+        "Resources on Earth: air, water, soil",
+        "Biogeochemical cycles: water cycle, nitrogen cycle, carbon cycle, oxygen cycle",
+        "Atmosphere: layers, importance",
+        "Air pollution: causes, effects, prevention",
+        "Water pollution: causes, effects, prevention",
+        "Soil erosion and conservation",
+        "Ozone layer depletion, greenhouse effect, global warming"
+      ],
+      "ncert_pages": "223-238"
+    },
+    {
+      "number": 15,
+      "name": "Improvement in Food Resources",
+      "learning_outcomes": [
+        "Understand crop variety improvement",
+        "Explain crop production management: nutrients, irrigation, cropping patterns",
+        "Describe crop protection management: pests, weeds, diseases",
+        "Understand animal husbandry: dairy, poultry, fish, beekeeping"
+      ],
+      "weightage": 4,
+      "key_concepts": [
+        "Crop improvement: hybridisation, GM crops",
+        "Nutrient management: manures, fertilizers",
+        "Irrigation methods",
+        "Cropping patterns: mixed cropping, intercropping, crop rotation",
+        "Crop protection: pesticides, biological control",
+        "Animal husbandry: cattle, poultry, fish, beekeeping"
+      ],
+      "ncert_pages": "239-255"
+    }
+  ],
+  "exam_pattern": {
+    "theory_marks": 80,
+    "practical_marks": 20,
+    "question_types": {
+      "mcq": {
+        "count": 20,
+        "marks_each": 1
+      },
+      "very_short_answer": {
+        "count": 6,
+        "marks_each": 2
+      },
+      "short_answer": {
+        "count": 7,
+        "marks_each": 3
+      },
+      "long_answer": {
+        "count": 3,
+        "marks_each": 5
+      }
+    },
+    "difficulty_distribution": {
+      "easy": 0.3,
+      "medium": 0.5,
+      "hard": 0.2
+    }
+  }
+}

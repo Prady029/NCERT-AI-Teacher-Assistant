@@ -1,0 +1,50 @@
+{
+  "subject": "hindi",
+  "subject_label": "Hindi",
+  "class": 10,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Kshitij-2",
+    "book_code": "jhks1",
+    "first_chapter": 0,
+    "last_chapter": 12,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?jhks1=0-12"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Kshitij-2",
+      "book_code": "jhks1",
+      "first_chapter": 0,
+      "last_chapter": 12,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhks1=0-12"
+    },
+    {
+      "title": "Sparsh",
+      "book_code": "jhsp1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhsp1=0-14"
+    },
+    {
+      "title": "Sanchayan Bhag-2",
+      "book_code": "jhsy1",
+      "first_chapter": 0,
+      "last_chapter": 3,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhsy1=0-3"
+    },
+    {
+      "title": "Kritika",
+      "book_code": "jhkr1",
+      "first_chapter": 0,
+      "last_chapter": 3,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhkr1=0-3"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

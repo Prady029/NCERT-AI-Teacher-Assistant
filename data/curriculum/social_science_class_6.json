@@ -1,0 +1,183 @@
+{
+  "subject": "social_science",
+  "subject_label": "Social Science",
+  "class": 6,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Exploring Society India and Beyond",
+    "book_code": "fees1",
+    "first_chapter": 0,
+    "last_chapter": 14,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?fees1=0-14"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Exploring Society India and Beyond",
+      "book_code": "fees1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fees1=0-14"
+    },
+    {
+      "title": "Samaj Ka Aadhyan: Bharat or uske aage",
+      "book_code": "fhes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fhes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Kannada)",
+      "book_code": "fknes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fknes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Kashmiri)",
+      "book_code": "fkses1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fkses1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Odia)",
+      "book_code": "fores1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fores1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Manipuri)",
+      "book_code": "fmnes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmnes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Marathi)",
+      "book_code": "fmres1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmres1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Punjabi)",
+      "book_code": "fpnes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fpnes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Dogri)",
+      "book_code": "fdges1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fdges1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Gujrati)",
+      "book_code": "fgjes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fgjes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Malayalam)",
+      "book_code": "fmles1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmles1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Sanskrit)",
+      "book_code": "fskes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fskes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Bengali)",
+      "book_code": "fbnes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fbnes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Bodo)",
+      "book_code": "fbdes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fbdes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Maithili)",
+      "book_code": "fmtes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fmtes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Nepali)",
+      "book_code": "fnpes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fnpes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Tamil)",
+      "book_code": "ftmes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ftmes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Telugu)",
+      "book_code": "ftles1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ftles1=0-14"
+    },
+    {
+      "title": "Muashre Ki Daryaft Hindustan aur Us Se Aage (Urdu)",
+      "book_code": "fues1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fues1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Santhali)",
+      "book_code": "fsnes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fsnes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Assamese)",
+      "book_code": "fases1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fases1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Konkani)",
+      "book_code": "fkoes1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fkoes1=0-14"
+    },
+    {
+      "title": "Exploring Society India and Beyond (Sindhi)",
+      "book_code": "fsies1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?fsies1=0-14"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

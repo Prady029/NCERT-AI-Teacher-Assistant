@@ -1,0 +1,106 @@
+{
+  "subject": "social_science",
+  "subject_label": "Social Science",
+  "class": 10,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Contemporary India",
+    "book_code": "jess1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?jess1=0-7"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Contemporary India",
+      "book_code": "jess1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jess1=0-7"
+    },
+    {
+      "title": "Samkalin Bharat",
+      "book_code": "jhss1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhss1=0-7"
+    },
+    {
+      "title": "Aasri Hindustan-II",
+      "book_code": "juss1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?juss1=0-7"
+    },
+    {
+      "title": "Understanding Economic Development",
+      "book_code": "jess2",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jess2=0-5"
+    },
+    {
+      "title": "Arthik Vikas ki Samajh",
+      "book_code": "jhss2",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhss2=0-5"
+    },
+    {
+      "title": "Maashi Taraqqui Ki Samajh",
+      "book_code": "juss2",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?juss2=0-5"
+    },
+    {
+      "title": "India and the Contemporary World-II",
+      "book_code": "jess3",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jess3=0-5"
+    },
+    {
+      "title": "Bharat Aur Samakalin Vishav-2",
+      "book_code": "jhss3",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhss3=0-5"
+    },
+    {
+      "title": "Hindustan Aur Asri Duniya",
+      "book_code": "juss3",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?juss3=0-5"
+    },
+    {
+      "title": "Democratic Politics",
+      "book_code": "jess4",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jess4=0-5"
+    },
+    {
+      "title": "Loktantrik Rajniti",
+      "book_code": "jhss4",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jhss4=0-5"
+    },
+    {
+      "title": "Jamhuri Siyasat-II",
+      "book_code": "juss4",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?juss4=0-8"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

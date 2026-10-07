@@ -1,0 +1,64 @@
+{
+  "subject": "political_science",
+  "subject_label": "Political Science",
+  "class": 11,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Political Theory",
+    "book_code": "keps1",
+    "first_chapter": 0,
+    "last_chapter": 8,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?keps1=0-8"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Political Theory",
+      "book_code": "keps1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?keps1=0-8"
+    },
+    {
+      "title": "Raajneeti Sidhant",
+      "book_code": "khps1",
+      "first_chapter": 0,
+      "last_chapter": 8,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khps1=0-8"
+    },
+    {
+      "title": "Hindustani Aain aur Kaam",
+      "book_code": "kups1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kups1=0-10"
+    },
+    {
+      "title": "India Constitution at Work",
+      "book_code": "keps2",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?keps2=0-10"
+    },
+    {
+      "title": "Bharat ka Samvidhan Sidhant aur Vyavhar",
+      "book_code": "khps2",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khps2=0-10"
+    },
+    {
+      "title": "Siyasi Nazaria",
+      "book_code": "kups2",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kups2=0-10"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

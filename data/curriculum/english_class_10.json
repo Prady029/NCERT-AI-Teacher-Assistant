@@ -1,0 +1,43 @@
+{
+  "subject": "english",
+  "subject_label": "English",
+  "class": 10,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "First Flight",
+    "book_code": "jeff1",
+    "first_chapter": 0,
+    "last_chapter": 9,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?jeff1=0-9"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "First Flight",
+      "book_code": "jeff1",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jeff1=0-9"
+    },
+    {
+      "title": "Foot Prints Without feet Supp. Reader",
+      "book_code": "jefp1",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jefp1=0-9"
+    },
+    {
+      "title": "Words and Expressions  2",
+      "book_code": "jewe2",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?jewe2=0-9"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

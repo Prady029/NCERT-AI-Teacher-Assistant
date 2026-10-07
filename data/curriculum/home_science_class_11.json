@@ -1,0 +1,64 @@
+{
+  "subject": "home_science",
+  "subject_label": "Home Science",
+  "class": 11,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Human Ecology and Family Sciences Part I",
+    "book_code": "kehe1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?kehe1=0-7"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Human Ecology and Family Sciences Part I",
+      "book_code": "kehe1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kehe1=0-7"
+    },
+    {
+      "title": "Human Ecology and Family Sciences Part II",
+      "book_code": "kehe2",
+      "first_chapter": 0,
+      "last_chapter": 4,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kehe2=0-4"
+    },
+    {
+      "title": "Manav Paristhitiki evm pariwar vigyan Bhag-I",
+      "book_code": "khhe1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khhe1=0-7"
+    },
+    {
+      "title": "Manav Paristhitiki evm pariwar vigyan Bhag-II",
+      "book_code": "khhe2",
+      "first_chapter": 0,
+      "last_chapter": 5,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?khhe2=0-5"
+    },
+    {
+      "title": "Insani Mahauliyat aur Uloom e Khandandari-I",
+      "book_code": "kuim1",
+      "first_chapter": 0,
+      "last_chapter": 10,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuim1=0-10"
+    },
+    {
+      "title": "Insani Mahauliyat aur Uloom e Khandandari Part-II",
+      "book_code": "kuim2",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?kuim2=0-9"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

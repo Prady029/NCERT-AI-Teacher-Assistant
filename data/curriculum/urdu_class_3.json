@@ -1,0 +1,197 @@
+{
+  "subject": "urdu",
+  "subject_label": "Urdu",
+  "class": 3,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Ibtedai Urdu",
+    "book_code": "culb1",
+    "first_chapter": 0,
+    "last_chapter": 20,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?culb1=0-20"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Ibtedai Urdu",
+      "book_code": "culb1",
+      "first_chapter": 0,
+      "last_chapter": 20,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?culb1=0-20"
+    },
+    {
+      "title": "Maths Mela",
+      "book_code": "cemm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cemm1=0-14"
+    },
+    {
+      "title": "Ganit Mela",
+      "book_code": "chmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?chmm1=0-14"
+    },
+    {
+      "title": "Riyazi Mela",
+      "book_code": "cumm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cumm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Assamese)",
+      "book_code": "casmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?casmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Bengali)",
+      "book_code": "cbnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cbnmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Bodo)",
+      "book_code": "cbdmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cbdmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Dogri)",
+      "book_code": "cdgmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cdgmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Gujarati)",
+      "book_code": "cgjmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cgjmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Kannada)",
+      "book_code": "cknmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cknmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Maithili)",
+      "book_code": "cmtmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmtmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Malayalam)",
+      "book_code": "cmlmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmlmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Manipuri)",
+      "book_code": "cmnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmnmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Nepali)",
+      "book_code": "cnpmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cnpmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Odia)",
+      "book_code": "cormm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cormm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Punjabi)",
+      "book_code": "cpnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cpnmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Santhali)",
+      "book_code": "csnmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?csnmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Tamil)",
+      "book_code": "ctmmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ctmmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Telugu)",
+      "book_code": "ctlmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ctlmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Sanskrit)",
+      "book_code": "cskmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cskmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Marathi)",
+      "book_code": "cmrmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cmrmm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Konkani)",
+      "book_code": "ckomm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?ckomm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Sindhi)",
+      "book_code": "csimm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?csimm1=0-14"
+    },
+    {
+      "title": "Maths Mela (Kashmiri)",
+      "book_code": "cksmm1",
+      "first_chapter": 0,
+      "last_chapter": 14,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cksmm1=0-14"
+    },
+    {
+      "title": "Sitar",
+      "book_code": "cust1",
+      "first_chapter": 0,
+      "last_chapter": 19,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?cust1=0-19"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

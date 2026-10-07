@@ -1,0 +1,43 @@
+{
+  "subject": "psychology",
+  "subject_label": "Psychology",
+  "class": 12,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Psychology",
+    "book_code": "lepy1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?lepy1=0-7"
+  },
+  "primary_book_selection": "exact subject-title match",
+  "books": [
+    {
+      "title": "Psychology",
+      "book_code": "lepy1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lepy1=0-7"
+    },
+    {
+      "title": "Manovigyan",
+      "book_code": "lhpy1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lhpy1=0-7"
+    },
+    {
+      "title": "Nafsiat(Urdu)",
+      "book_code": "lupy1",
+      "first_chapter": 0,
+      "last_chapter": 9,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?lupy1=0-9"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

@@ -1,0 +1,176 @@
+{
+  "subject": "vocational_education",
+  "subject_label": "Vocational Education",
+  "class": 8,
+  "source": "ncert_textbook_catalogue",
+  "source_url": "https://ncert.nic.in/textbook.php",
+  "catalogue_verified": true,
+  "chapter_details_verified": false,
+  "catalogue_retrieved_at": "2026-10-07T13:36:13+00:00",
+  "primary_book": {
+    "title": "Kaushal Bodh",
+    "book_code": "hekb1",
+    "first_chapter": 0,
+    "last_chapter": 7,
+    "catalogue_url": "https://ncert.nic.in/textbook.php?hekb1=0-7"
+  },
+  "primary_book_selection": "first catalogue option; verify language/edition",
+  "books": [
+    {
+      "title": "Kaushal Bodh",
+      "book_code": "hekb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hekb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh (Hindi)",
+      "book_code": "hhkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hhkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Gujarati)",
+      "book_code": "hgjkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hgjkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Bodo)",
+      "book_code": "hbdkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbdkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Odia)",
+      "book_code": "horkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?horkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Telugu)",
+      "book_code": "htlkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htlkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Sanskrit)",
+      "book_code": "hskkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hskkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Punjabi)",
+      "book_code": "hpnkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hpnkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Nepali)",
+      "book_code": "hnpkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hnpkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Marathi)",
+      "book_code": "hmrkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmrkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Kannada)",
+      "book_code": "hknkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hknkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Tamil)",
+      "book_code": "htmkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?htmkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Dogri)",
+      "book_code": "hdgkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hdgkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Konkani)",
+      "book_code": "hkokb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkokb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Maithili)",
+      "book_code": "hmtkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmtkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Malayalam)",
+      "book_code": "hmlkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmlkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Manipuri)",
+      "book_code": "hmnkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hmnkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Santhali)",
+      "book_code": "hsnkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsnkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Bengali)",
+      "book_code": "hbnkb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hbnkb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Assamese)",
+      "book_code": "haskb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?haskb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Sindhi)",
+      "book_code": "hsikb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hsikb1=0-7"
+    },
+    {
+      "title": "Kaushal Bodh(Kashmiri)",
+      "book_code": "hkskb1",
+      "first_chapter": 0,
+      "last_chapter": 7,
+      "catalogue_url": "https://ncert.nic.in/textbook.php?hkskb1=0-7"
+    }
+  ],
+  "chapters": [],
+  "disclaimer": "Book code and chapter range come from the official NCERT textbook catalogue. Chapter titles, learning outcomes, and assessment blueprints are intentionally omitted because they were not verified. Verify against the current NCERT textbook and CBSE syllabus for the academic year before classroom use, and check NCERT's current copyright/terms notice before retaining or redistributing textbook content."
+}

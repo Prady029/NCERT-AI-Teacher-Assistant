@@ -346,39 +346,70 @@ class NCERTDataLoader:
         self.prompts_dir = self.data_dir / "prompts"
         self.samples_dir = self.data_dir / "ncert_raw"
     
-    def load_curriculum_map(self, subject: Subject, class_level: ClassLevel) -> Dict[str, Any]:
-        """Load curriculum mapping for subject/class."""
+    def load_curriculum_map(self, subject: Subject, class_level: ClassLevel) -> Optional[Dict[str, Any]]:
+        """Load the curriculum map for a subject/class, or None if not covered.
+
+        Returns None rather than a fabricated empty map so callers can report
+        "not covered" instead of implying the subject has no chapters.
+        """
         file_path = self.curriculum_dir / f"{subject.value}_class_{class_level.value}.json"
         if file_path.exists():
-            with open(file_path) as f:
-                return json.load(f)
-        return self._get_default_curriculum(subject, class_level)
-    
-    def _get_default_curriculum(self, subject: Subject, class_level: ClassLevel) -> Dict[str, Any]:
-        """Default curriculum structure."""
+            with open(file_path, encoding="utf-8") as handle:
+                return json.load(handle)
+        return self.load_catalogue_entries(subject, class_level)
+
+    def load_catalogue_entries(
+        self, subject: Subject, class_level: ClassLevel
+    ) -> Optional[Dict[str, Any]]:
+        """Fall back to the generated catalogue index for book-code/range lookup."""
+        index_path = self.curriculum_dir / "catalogue_index.json"
+        if not index_path.exists():
+            return None
+        with open(index_path, encoding="utf-8") as handle:
+            index = json.load(handle)
+        books = [
+            book for book in index.get("books", [])
+            if book.get("class_level") == class_level.value
+            and book.get("subject_slug") == subject.value
+        ]
+        if not books:
+            return None
         return {
             "subject": subject.value,
             "class": class_level.value,
+            "source": index.get("source"),
+            "source_url": index.get("source_url"),
+            "catalogue_verified": index.get("catalogue_verified", False),
+            "chapter_details_verified": False,
+            "books": books,
             "chapters": [],
-            "learning_outcomes": {},
-            "weightage": {}
         }
     
     def load_chapter_content(self, subject: Subject, class_level: ClassLevel, chapter: str) -> Optional[str]:
-        """Load a downloaded chapter's extracted text, if present."""
-        for file_path in self.samples_dir.glob(
-            f"class_{class_level.value}/{subject.value}/*/{chapter}.txt"
-        ):
-            return file_path.read_text(encoding="utf-8")
+        """Load a downloaded chapter's extracted text, if present.
+
+        ``chapter`` is treated as a plain file stem; directory components are
+        stripped so a request cannot escape the textbook directory tree.
+        """
+        stem = Path(chapter).name
+        subject_dir = self.samples_dir / f"class_{class_level.value}" / subject.value
+        if subject_dir.exists():
+            for file_path in subject_dir.rglob(f"{stem}.txt"):
+                return file_path.read_text(encoding="utf-8")
         return None
-    
+
     def load_all_chapters(self, subject: Subject, class_level: ClassLevel) -> Dict[str, str]:
-        """Load chapter text extracted by scripts/scrape_ncert.py."""
+        """Load chapter text extracted by scripts/scrape_ncert.py.
+
+        Searches recursively so both acquisition layouts work:
+        ``<book>/pdf/chapter_01.txt`` (complete-book ZIP) and
+        ``<book>/chapter_01.txt`` (per-chapter download).
+        """
         chapters: Dict[str, str] = {}
         subject_dir = self.samples_dir / f"class_{class_level.value}" / subject.value
         if subject_dir.exists():
-            for file_path in subject_dir.glob("*/*.txt"):
-                chapters[file_path.stem] = file_path.read_text(encoding="utf-8")
+            for file_path in sorted(subject_dir.rglob("*.txt")):
+                chapters.setdefault(file_path.stem, file_path.read_text(encoding="utf-8"))
         return chapters
     
     def prepare_rag_documents(self, subject: Subject, class_level: ClassLevel) -> List[Dict[str, Any]]:
@@ -387,10 +418,12 @@ class NCERTDataLoader:
         curriculum = self.load_curriculum_map(subject, class_level)
         
         documents = []
+        curriculum_chapters = (curriculum or {}).get("chapters", [])
         for chapter_name, content in chapters.items():
-            # Find chapter metadata from curriculum
+            # Chapter metadata is only present in verified maps; catalogue-derived
+            # maps intentionally leave chapter names empty.
             chapter_meta = next(
-                (c for c in curriculum.get("chapters", []) if c.get("name") == chapter_name),
+                (c for c in curriculum_chapters if c.get("name") == chapter_name),
                 {}
             )
             
