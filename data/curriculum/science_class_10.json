@@ -1,0 +1,425 @@
+{
+  "subject": "science",
+  "class": 10,
+  "language": "english",
+  "textbook_title": "NCERT Science Class 10",
+  "chapters": [
+    {
+      "number": 1,
+      "name": "Chemical Reactions and Equations",
+      "learning_outcomes": [
+        "Identify chemical reactions from observations",
+        "Write and balance chemical equations",
+        "Classify reactions: combination, decomposition, displacement, double displacement, redox",
+        "Explain effects of oxidation reactions in daily life (corrosion, rancidity)"
+      ],
+      "weightage": 5,
+      "key_concepts": [
+        "Chemical equation and balancing",
+        "Types of chemical reactions",
+        "Oxidation and reduction",
+        "Corrosion and rancidity"
+      ],
+      "ncert_pages": "1-15",
+      "exemplar_problems": [
+        "Balancing chemical equations",
+        "Identifying reaction types",
+        "Redox reaction examples"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Acids, Bases and Salts",
+      "learning_outcomes": [
+        "Define acids, bases and salts in terms of H+ and OH- ions",
+        "Explain pH scale and its importance in daily life",
+        "Describe preparation, properties and uses of common salts",
+        "Understand water of crystallization"
+      ],
+      "weightage": 6,
+      "key_concepts": [
+        "Acid-base indicators",
+        "pH scale and its applications",
+        "Preparation of salts",
+        "Common salts: NaCl, Na2CO3, NaHCO3, CaSO4·2H2O"
+      ],
+      "ncert_pages": "16-35",
+      "exemplar_problems": [
+        "pH calculations",
+        "Salt hydrolysis",
+        "Uses of common salts"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Metals and Non-metals",
+      "learning_outcomes": [
+        "Distinguish between metals and non-metals based on physical and chemical properties",
+        "Explain reactivity series and displacement reactions",
+        "Describe extraction of metals (roasting, calcination, electrolysis)",
+        "Understand corrosion and its prevention"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Physical properties of metals and non-metals",
+        "Chemical properties: reaction with air, water, acids",
+        "Reactivity series",
+        "Extraction of metals",
+        "Corrosion and prevention"
+      ],
+      "ncert_pages": "36-55",
+      "exemplar_problems": [
+        "Reactivity series applications",
+        "Extraction process flowcharts",
+        "Corrosion prevention methods"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Carbon and its Compounds",
+      "learning_outcomes": [
+        "Understand catenation and tetravalency of carbon",
+        "Classify organic compounds: saturated/unsaturated, functional groups",
+        "Explain properties of homologous series",
+        "Describe soaps and detergents action"
+      ],
+      "weightage": 8,
+      "key_concepts": [
+        "Covalent bonding in carbon compounds",
+        "Homologous series: alkanes, alkenes, alkynes",
+        "Functional groups: alcohols, aldehydes, ketones, carboxylic acids",
+        "Chemical properties: combustion, oxidation, addition, substitution",
+        "Soaps and detergents"
+      ],
+      "ncert_pages": "56-80",
+      "exemplar_problems": [
+        "Naming organic compounds (IUPAC)",
+        "Chemical reactions of functional groups",
+        "Cleansing action of soaps"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Periodic Classification of Elements",
+      "learning_outcomes": [
+        "Trace historical development: Dobereiner, Newlands, Mendeleev, Modern periodic table",
+        "Explain modern periodic law and periodic trends",
+        "Predict properties based on position in periodic table"
+      ],
+      "weightage": 4,
+      "key_concepts": [
+        "Early classification attempts",
+        "Mendeleev's periodic table",
+        "Modern periodic law",
+        "Periodic trends: atomic size, valency, metallic/non-metallic character"
+      ],
+      "ncert_pages": "81-95",
+      "exemplar_problems": [
+        "Periodic trend predictions",
+        "Anomalies in Mendeleev's table",
+        "Group and period identification"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Life Processes",
+      "learning_outcomes": [
+        "Define nutrition, respiration, transportation, excretion in plants and animals",
+        "Explain autotrophic and heterotrophic nutrition",
+        "Describe human digestive, respiratory, circulatory, excretory systems",
+        "Understand plant transport: xylem and phloem"
+      ],
+      "weightage": 9,
+      "key_concepts": [
+        "Nutrition: autotrophic (photosynthesis), heterotrophic",
+        "Respiration: aerobic, anaerobic",
+        "Transportation in humans: blood, heart, vessels",
+        "Transportation in plants: xylem, phloem",
+        "Excretion in humans: kidney structure and function",
+        "Excretion in plants"
+      ],
+      "ncert_pages": "96-120",
+      "exemplar_problems": [
+        "Photosynthesis equation and factors",
+        "Heart structure and blood flow",
+        "Kidney nephron function",
+        "Comparison of transport in plants vs animals"
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Control and Coordination",
+      "learning_outcomes": [
+        "Explain nervous system: neurons, reflex arc, brain parts",
+        "Describe endocrine system: major glands and hormones",
+        "Understand plant coordination: tropisms, hormones",
+        "Compare nervous and hormonal control"
+      ],
+      "weightage": 6,
+      "key_concepts": [
+        "Nervous system: CNS, PNS, neuron structure",
+        "Reflex action and reflex arc",
+        "Human brain: cerebrum, cerebellum, medulla",
+        "Endocrine glands: pituitary, thyroid, pancreas, adrenal, gonads",
+        "Plant hormones: auxin, gibberellin, cytokinin, abscisic acid",
+        "Tropisms: phototropism, geotropism, hydrotropism"
+      ],
+      "ncert_pages": "121-138",
+      "exemplar_problems": [
+        "Reflex arc diagram",
+        "Hormone functions table",
+        "Plant hormone experiments"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "How do Organisms Reproduce?",
+      "learning_outcomes": [
+        "Distinguish asexual and sexual reproduction",
+        "Explain modes of asexual reproduction: fission, budding, fragmentation, regeneration",
+        "Describe sexual reproduction in plants (flower structure, pollination, fertilization)",
+        "Describe human reproductive system and reproductive health"
+      ],
+      "weightage": 8,
+      "key_concepts": [
+        "Asexual reproduction types",
+        "Sexual reproduction in flowering plants",
+        "Human male and female reproductive systems",
+        "Menstrual cycle",
+        "Contraception methods",
+        "Sexually transmitted diseases"
+      ],
+      "ncert_pages": "139-160",
+      "exemplar_problems": [
+        "Flower diagram labeling",
+        "Reproductive system diagrams",
+        "Contraception comparison table"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Heredity and Evolution",
+      "learning_outcomes": [
+        "State Mendel's laws of inheritance",
+        "Explain monohybrid and dihybrid crosses",
+        "Understand sex determination in humans",
+        "Describe evidence for evolution: homologous, analogous organs, fossils"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Mendel's experiments and laws",
+        "Monohybrid cross (3:1 ratio)",
+        "Dihybrid cross (9:3:3:1 ratio)",
+        "Sex determination: XX/XY",
+        "Evolution: acquired vs inherited traits",
+        "Speciation and evidence for evolution"
+      ],
+      "ncert_pages": "161-180",
+      "exemplar_problems": [
+        "Punnett square problems",
+        "Mendelian ratio calculations",
+        "Evolutionary evidence identification"
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Light – Reflection and Refraction",
+      "learning_outcomes": [
+        "State laws of reflection and refraction",
+        "Apply mirror formula and magnification for spherical mirrors",
+        "Apply lens formula and magnification for spherical lenses",
+        "Understand power of lens and its applications"
+      ],
+      "weightage": 8,
+      "key_concepts": [
+        "Reflection: laws, spherical mirrors, image formation",
+        "Mirror formula: 1/v + 1/u = 1/f",
+        "Magnification: m = -v/u = h'/h",
+        "Refraction: laws, refractive index",
+        "Spherical lenses: image formation",
+        "Lens formula: 1/v - 1/u = 1/f",
+        "Power of lens: P = 1/f (in meters)"
+      ],
+      "ncert_pages": "181-205",
+      "exemplar_problems": [
+        "Mirror/lens formula numerical problems",
+        "Ray diagram drawing",
+        "Power of lens calculations",
+        "Image nature and position determination"
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Human Eye and Colourful World",
+      "learning_outcomes": [
+        "Describe structure and functioning of human eye",
+        "Explain defects of vision and their correction",
+        "Understand dispersion of light through prism",
+        "Explain atmospheric refraction: twinkling stars, advanced sunrise/delayed sunset",
+        "Understand scattering of light: Tyndall effect, blue sky, red sunrise/sunset"
+      ],
+      "weightage": 6,
+      "key_concepts": [
+        "Human eye structure: cornea, iris, pupil, lens, retina, optic nerve",
+        "Accommodation and near point",
+        "Defects: myopia, hypermetropia, presbyopia, astigmatism",
+        "Correction using lenses",
+        "Dispersion: VIBGYOR",
+        "Atmospheric refraction phenomena",
+        "Scattering of light applications"
+      ],
+      "ncert_pages": "206-220",
+      "exemplar_problems": [
+        "Eye defect correction calculations",
+        "Prism dispersion diagram",
+        "Scattering phenomena explanations"
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Electricity",
+      "learning_outcomes": [
+        "Define electric current, potential difference, resistance",
+        "State and apply Ohm's law",
+        "Understand factors affecting resistance",
+        "Calculate equivalent resistance in series and parallel",
+        "Explain heating effect of current and electric power"
+      ],
+      "weightage": 9,
+      "key_concepts": [
+        "Electric current and circuit",
+        "Potential difference and voltmeter",
+        "Ohm's law: V = IR",
+        "Resistance and resistivity",
+        "Series and parallel combinations",
+        "Heating effect: H = I²Rt",
+        "Electric power: P = VI = I²R = V²/R",
+        "Commercial unit: kWh"
+      ],
+      "ncert_pages": "221-245",
+      "exemplar_problems": [
+        "Ohm's law numerical problems",
+        "Series/parallel resistance calculations",
+        "Power and energy cost calculations",
+        "Circuit diagram analysis"
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Magnetic Effects of Electric Current",
+      "learning_outcomes": [
+        "Describe magnetic field and field lines",
+        "Explain magnetic field due to current-carrying conductor",
+        "State right-hand thumb rule, Fleming's left-hand rule",
+        "Describe electric motor and generator principles",
+        "Understand domestic electric circuits"
+      ],
+      "weightage": 7,
+      "key_concepts": [
+        "Magnetic field and field lines properties",
+        "Magnetic field due to straight conductor, circular loop, solenoid",
+        "Force on current-carrying conductor in magnetic field",
+        "Fleming's left-hand rule (motor)",
+        "Fleming's right-hand rule (generator)",
+        "Electric motor: principle and construction",
+        "Electric generator: AC and DC",
+        "Domestic circuits: live, neutral, earth, fuse, earthing"
+      ],
+      "ncert_pages": "246-268",
+      "exemplar_problems": [
+        "Magnetic field line diagrams",
+        "Motor/generator principle applications",
+        "Domestic circuit safety devices"
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Sources of Energy",
+      "learning_outcomes": [
+        "Classify sources: renewable and non-renewable",
+        "Evaluate conventional sources: fossil fuels, thermal, hydro",
+        "Describe alternative sources: solar, wind, biomass, geothermal, tidal, nuclear",
+        "Understand environmental consequences and energy crisis"
+      ],
+      "weightage": 5,
+      "key_concepts": [
+        "Good source of energy criteria",
+        "Conventional: fossil fuels, thermal power plant, hydro power plant",
+        "Non-conventional: solar, wind, biomass, geothermal, tidal, nuclear",
+        "Environmental consequences: pollution, global warming",
+        "Energy crisis and sustainable development"
+      ],
+      "ncert_pages": "269-285",
+      "exemplar_problems": [
+        "Energy source comparison table",
+        "Solar cooker/panel principles",
+        "Environmental impact assessment"
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Our Environment",
+      "learning_outcomes": [
+        "Understand ecosystem components: biotic, abiotic, food chain, food web",
+        "Explain energy flow: 10% law, ecological pyramids",
+        "Describe ozone layer depletion and waste management",
+        "Apply reduce, reuse, recycle principles"
+      ],
+      "weightage": 5,
+      "key_concepts": [
+        "Ecosystem: structure and function",
+        "Food chain and food web",
+        "Energy flow: 10% law",
+        "Ecological pyramids: number, biomass, energy",
+        "Ozone layer: formation, depletion, CFCs",
+        "Waste management: biodegradable, non-biodegradable",
+        "3 Rs: Reduce, Reuse, Recycle"
+      ],
+      "ncert_pages": "286-300",
+      "exemplar_problems": [
+        "Food chain/web construction",
+        "Energy pyramid calculations",
+        "Waste segregation examples"
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Management of Natural Resources",
+      "learning_outcomes": [
+        "Understand need for resource management",
+        "Describe water harvesting and watershed management",
+        "Explain forest and wildlife conservation",
+        "Understand coal and petroleum conservation"
+      ],
+      "weightage": 4,
+      "key_concepts": [
+        "Why manage natural resources?",
+        "Forests and wildlife: stakeholders, conservation",
+        "Water for all: dams, water harvesting",
+        "Coal and petroleum: judicious use",
+        "Sustainable development"
+      ],
+      "ncert_pages": "301-315",
+      "exemplar_problems": [
+        "Water harvesting techniques",
+        "Chipko movement case study",
+        "Sustainable practices in daily life"
+      ]
+    }
+  ],
+  "exam_pattern": {
+    "theory_marks": 80,
+    "practical_marks": 20,
+    "question_types": {
+      "mcq": {"count": 20, "marks_each": 1},
+      "very_short_answer": {"count": 6, "marks_each": 2},
+      "short_answer": {"count": 7, "marks_each": 3},
+      "long_answer": {"count": 3, "marks_each": 5}
+    },
+    "difficulty_distribution": {
+      "easy": 0.3,
+      "medium": 0.5,
+      "hard": 0.2
+    }
+  }
+}

@@ -1,276 +1,62 @@
 # Contributing to NCERT AI Teacher Assistant
 
-We welcome contributions from **educators, developers, and researchers** to help teachers reduce paperwork and focus on teaching!
+Thanks for helping teachers spend less time on paperwork. Contributions from educators, developers, and researchers are welcome.
 
-## 🚀 Quick Start
+A few ground rules for this project:
 
-1. **Fork the repository** on GitHub
-2. **Clone your fork** locally:
-   ```bash
-   git clone https://github.com/your-username/NCERT-AI-Teacher-Assistant.git
-   cd NCERT-AI-Teacher-Assistant
-   ```
+- Generated content is a draft. Never present model output as teacher-verified or curriculum-approved.
+- Do not commit student data, teacher personal data, API keys, or NCERT textbook files. The corpus is ingested locally and excluded from Git.
+- Keep NCERT/CBSE claims verifiable. Do not invent page numbers, learning-outcome codes, or exam blueprints; cite current official sources in docs.
+- If you are not sure whether something is accurate, mark it as unverified rather than guessing.
 
-3. **Set up development environment**:
+## Development setup
 
-   **Backend (Python/FastAPI)**:
-   ```bash
-   cd backend  # when created
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-   **Frontend (Next.js)**:
-   ```bash
-   # From repo root
-   npm install
-   npm run dev
-   ```
-
-4. **Create a feature branch**:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-5. **Make your changes** and test them
-
-6. **Submit a pull request**
-
-## 🔧 Development Setup
-
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- npm/pnpm
-- Git
-- LLM API Key (Google AI Studio / OpenAI / Anthropic)
-
-### Environment Setup
-```bash
-# Backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pip install black isort flake8 mypy pytest pytest-asyncio
-
-# Frontend
-npm install
-```
-
-### Running Tests
-```bash
-# Backend tests
-cd backend
-pytest tests/ -v
-
-# Frontend tests
-npm test
-npm run lint
-npm run type-check
-```
-
-## 📝 Code Style
-
-### Python (Backend)
-- **Black** for code formatting
-- **isort** for import sorting
-- **flake8** for linting
-- **mypy** for type checking
-- Line length: 88 characters (Black default)
+The backend is a `uv`-managed Python project. Install [uv](https://docs.astral.sh/uv/) first.
 
 ```bash
-# Format
-black .
-isort .
-
-# Check
-flake8 . --max-line-length=88 --extend-ignore=E203,W503
-mypy . --ignore-missing-imports
+git clone https://github.com/YOUR-USERNAME/NCERT-AI-Teacher-Assistant.git
+cd NCERT-AI-Teacher-Assistant/backend
+uv python install 3.11
+uv sync --extra dev
+cp .env.example .env
 ```
 
-### TypeScript/React (Frontend)
-- **ESLint** for linting
-- **Prettier** for formatting (via ESLint)
-- **TypeScript** strict mode
+`uv.lock` is committed. Use `uv sync --locked --extra dev` to confirm your change works against the pinned dependency set, and update the lockfile deliberately with `uv lock` when you change `pyproject.toml`.
+
+Do not add a `requirements.txt`; dependencies live in `backend/pyproject.toml`.
+
+## Checks before opening a pull request
+
+Run all of these from `backend/`:
 
 ```bash
-# Check
-npm run lint
-npm run type-check
-
-# Format (if configured)
-npm run format
+uv run --locked pytest -q
+uv run --locked python -m compileall -q app scripts tests
+uv run --locked ruff check app scripts tests
 ```
 
-## 🏗️ Project Structure
+If your change affects prompts, schemas, or API routes, describe the request/response you exercised. Prefer mocked LLM calls in tests so the suite runs without API keys or network access.
 
-```
-NCERT-AI-Teacher-Assistant/
-├── backend/                 # Python FastAPI backend (to be created)
-│   ├── app/
-│   │   ├── api/            # API routes
-│   │   ├── core/           # Config, security
-│   │   ├── models/         # Pydantic models
-│   │   ├── services/       # Business logic (LLM, RAG)
-│   │   └── utils/          # Helpers
-│   ├── tests/
-│   └── requirements.txt
-├── app/                     # Next.js 15 App Router
-│   ├── components/         # React components
-│   ├── lib/               # Utilities
-│   └── api/               # API routes
-├── components/             # Shared components
-├── data/                  # Static data (curriculum maps)
-├── public/                # Static assets
-├── .github/
-│   ├── workflows/         # CI/CD
-│   └── ISSUE_TEMPLATE/    # Issue templates
-└── docs/                  # Documentation
-```
+## Adding a generation feature
 
-## 🧪 Testing Guidelines
+1. Add request/response models in `app/models/schemas.py`.
+2. Add a prompt in `app/services/prompt_templates.py` and register it.
+3. Implement the workflow in `app/services/generation_service.py` with Pydantic validation of the model output.
+4. Expose it in `app/api/routes.py`.
+5. Add a smoke test that does not require a live provider.
 
-### Backend Tests
-- Unit tests for each service module
-- Integration tests for API endpoints
-- Mock LLM responses for deterministic testing
+Prompt changes should not weaken validation. If retrieved textbook passages are unavailable, prompts must instruct the model not to claim textbook verification or fabricate citations.
 
-### Frontend Tests
-- Component tests with React Testing Library
-- E2E tests for critical user flows (when added)
+## Ingestion changes
 
-### Writing Tests
-- Use descriptive test names
-- Include docstrings explaining test purpose
-- Test both success and failure cases
-- Use fixtures for common test data
+`backend/scripts/scrape_ncert.py` reads book codes and chapter ranges from the official [NCERT textbook catalogue](https://ncert.nic.in/textbook.php). Keep the request delay, keep source URLs in the index output, and do not commit downloaded PDFs or extracted text. Check NCERT's current copyright notice and terms before using or redistributing textbook material.
 
-## 📋 Pull Request Guidelines
+## Reporting issues
 
-### Before Submitting
-- [ ] Code follows style guidelines (`black`, `isort`, `flake8`, `eslint` pass)
-- [ ] Type checks pass (`mypy`, `tsc`)
-- [ ] Tests pass (`pytest`, `npm test`)
-- [ ] New functionality includes tests
-- [ ] Documentation is updated if needed
-- [ ] CHANGELOG.md is updated for significant changes
+Include the endpoint or script, a minimal request/command, the observed result, the expected result, and whether an LLM provider or indexed corpus was involved. Redact API keys and personal data.
 
-### Pull Request Description
-Include:
-- **Purpose**: What does this PR accomplish?
-- **Changes**: What specific changes were made?
-- **Testing**: How was this tested?
-- **Breaking Changes**: Any backwards incompatible changes?
-- **Screenshots**: For UI changes
+## Pull requests
 
-### Example PR Description
-```
-## Purpose
-Add lesson plan generator for Class 10 Science Chapter 1
+Keep changes focused and explain the teacher-facing impact. For UI or generation changes, include a sample output and note which parts you verified against an official source.
 
-## Changes
-- Added NCERT curriculum mapping for Class 10 Science
-- Implemented 5E model prompt template
-- Added PDF export for lesson plans
-- Created unit tests for prompt generation
-
-## Testing
-- Verified prompt generates valid lesson plan structure
-- Tested PDF export with sample data
-- All existing tests pass
-
-## Breaking Changes
-None - new endpoint added
-
-## Screenshots
-![Lesson Plan Output](screenshot.png)
-```
-
-## 🐛 Bug Reports
-
-When reporting bugs, please include:
-
-1. **Environment**: OS, Browser, Python/Node versions, LLM provider
-2. **Reproduction**: Minimal steps to reproduce
-3. **Expected vs Actual**: What you expected vs what happened
-4. **Error Messages**: Full error traceback/logs
-5. **Screenshots**: If UI-related
-
-## 💡 Feature Requests
-
-For new features:
-1. **Check existing issues** to avoid duplicates
-2. **Describe the teacher workflow** - how does this help teachers?
-3. **Consider curriculum alignment** - which NCERT class/subject/chapter?
-4. **Propose implementation** if you have ideas
-5. **Consider privacy** - no student PII, offline-first options
-
-## 📚 Documentation
-
-### Code Documentation
-- Use clear, descriptive docstrings (Google style for Python)
-- Include examples for complex functions
-- Document LLM prompts and expected outputs
-
-### Adding Documentation
-- Update README.md for user-facing changes
-- Update docs/ for technical documentation
-- Add inline comments for complex logic
-- Update API documentation for endpoint changes
-
-### Prompt Documentation
-All LLM prompts should include:
-```python
-def generate_lesson_plan_prompt(chapter: str, class_level: int) -> str:
-    """
-    Generate a structured prompt for lesson plan creation.
-    
-    Args:
-        chapter: NCERT chapter name
-        class_level: Class number (6-12)
-        
-    Returns:
-        Formatted prompt string for LLM
-        
-    Example:
-        >>> generate_lesson_plan_prompt("Light", 10)
-        "Create a lesson plan for Class 10 Science Chapter 'Light'..."
-    """
-```
-
-## 🏫 Educational Guidelines
-
-### Curriculum Alignment
-All generated content must align with:
-- **NCERT Textbooks** (primary source)
-- **CBSE Syllabus** (examination pattern)
-- **NCF 2005** (pedagogical framework)
-- **NEP 2020** (competency-based education)
-- **Bloom's Taxonomy** (objective classification)
-
-### Quality Standards
-- **Accuracy**: Factual correctness verified against NCERT
-- **Appropriateness**: Age/grade-appropriate language and complexity
-- **Inclusivity**: Gender-neutral, culturally sensitive content
-- **Accessibility**: Clear structure, readable formatting
-
-## 🤝 Community Guidelines
-
-- **Be respectful** and inclusive
-- **Help teachers** - this is for them
-- **Ask questions** if something is unclear
-- **Provide constructive feedback**
-- **Share classroom experiences** - real feedback is gold
-
-## 📞 Getting Help
-
-- **GitHub Issues**: For bugs and feature requests
-- **GitHub Discussions**: For questions and general discussion
-- **Documentation**: Check docs/ folder
-
-## 🙏 Special Thanks
-
-This project exists because of teachers who spend countless hours on paperwork. Every contribution helps give them time back for what matters: **teaching**.
-
-Thank you for contributing to NCERT AI Teacher Assistant! 🎉
+Thank you for contributing.

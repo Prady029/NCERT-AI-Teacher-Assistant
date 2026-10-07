@@ -138,16 +138,18 @@ output/
 *.temp
 *.bak
 
-# PDF/Document exports (generated)
+# Downloaded NCERT textbook PDFs and extracted text (ingest locally, do not commit)
+data/ncert_raw/
+data/ncert_catalogue.json
+textbook/pdf/
 *.pdf
 *.docx
 !README.md
 
-# Dataset files (large)
-data/*.csv
-data/*.json
-data/*.xlsx
-!data/sample/
+# Large/generated data files; data/curriculum/*.json is intentionally kept
+# and is not covered by any ignore rule above.
+data/**/*.csv
+data/**/*.xlsx
 
 # Secrets (never commit)
 *.env

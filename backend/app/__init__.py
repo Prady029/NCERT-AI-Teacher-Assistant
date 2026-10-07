@@ -1,0 +1,1 @@
+"""NCERT AI Teacher Assistant backend package."""

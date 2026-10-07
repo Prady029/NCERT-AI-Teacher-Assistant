@@ -1,286 +1,157 @@
-# NCERT AI Teacher Assistant 🏫🤖
+# NCERT AI Teacher Assistant
 
-**An AI-powered assistant that helps teachers create lesson plans, draft question sets, and automate classroom paperwork — so they can focus on teaching.**
+A teacher-facing prototype for drafting NCERT-aligned lesson plans, question papers, chapter summaries, and formative feedback. The backend combines configurable LLM providers with optional retrieval from NCERT chapter PDFs downloaded from the official catalogue.
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
-[![LLM](https://img.shields.io/badge/LLM-Gemini%20%7C%20GPT-purple.svg)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Experimental-orange.svg)]()
+> **Important:** Generated material is a draft, not a substitute for teacher judgment. Review factual accuracy, curriculum alignment, difficulty, accessibility, and marking before classroom use. Do not submit identifiable student information.
 
----
+## Current status
 
-## 🎯 The Problem
+The repository currently contains a **FastAPI backend prototype**. It does not yet include the full teacher dashboard, user accounts, production authentication, classroom management, or a complete curriculum corpus. The README describes the intended direction; the checklist below separates working backend pieces from planned work.
 
-> **Teachers spend 40%+ of their time on paperwork** — lesson plans, question papers, assessment rubrics, administrative reports — instead of actual teaching.
+### Implemented
 
-This project was born from my background in **education (B.Sc.B.Ed from NCERT's RIE Bhubaneswar)** combined with my career in **Data Science/GenAI**. The goal: *help teachers teach, not draft papers.*
+- FastAPI endpoints for lesson plans, question papers, summaries, formative response evaluation, health, and curriculum metadata.
+- Pydantic request/response validation and structured prompts.
+- Google Gemini, OpenAI, and Anthropic generation adapters (provider packages/API keys required).
+- NCERT catalogue discovery and chapter-PDF download/text extraction script.
+- Optional Qdrant-backed retrieval; indexing requires Google embeddings, a running Qdrant instance, and a configured indexing key.
+- Sample curriculum metadata for NCERT Science Classes 9 and 10. This is reference metadata, not a substitute for the current official syllabus.
 
----
+### Planned / not implemented yet
 
-## ✨ Features
+- Next.js teacher interface and authentication.
+- Full NCERT/CBSE curriculum maps, textbook corpus validation, and supported-language coverage.
+- Learning-outcome and exam-blueprint verification against current official documents.
+- Persistent teacher feedback workflow, analytics, export, and deployment hardening.
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| **📝 Lesson Plan Generator** | Creates structured lesson plans aligned with NCERT curriculum | 🔄 In Progress |
-| **📋 Question Paper Generator** | Drafts unit tests, exam papers with varying difficulty levels | 🔄 In Progress |
-| **🎯 Learning Objectives** | Auto-generates Bloom's Taxonomy aligned objectives | 📋 Planned |
-| **📊 Assessment Rubrics** | Creates marking schemes and evaluation criteria | 📋 Planned |
-| **📚 Chapter Summaries** | Concise summaries for quick teacher reference | 📋 Planned |
-| **🔄 Differentiation Support** | Adapts content for different learning levels | 📋 Planned |
+## Repository layout
 
----
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    NCERT AI Teacher Assistant                │
-├─────────────────────────────────────────────────────────────┤
-│  Frontend (Next.js + TypeScript + Tailwind)                 │
-│  ├── Teacher Dashboard          ├── Lesson Plan Builder      │
-│  ├── Question Paper Wizard      ├── Class Management         │
-│  └── Resource Library           └── Export (PDF/Word/Google) │
-├─────────────────────────────────────────────────────────────┤
-│  Backend (Python FastAPI / Next.js API Routes)               │
-│  ├── LLM Orchestration (LangChain/LangGraph)                │
-│  ├── Prompt Templates (Curriculum-Aware)                    │
-│  ├── RAG Pipeline (NCERT Textbooks + Syllabus)              │
-│  ├── Output Validation & Formatting                         │
-│  └── Teacher Feedback Loop (RLHF-style)                     │
-├─────────────────────────────────────────────────────────────┤
-│  Knowledge Base                                               │
-│  ├── NCERT Textbooks (PDF/EPUB → Vector Store)              │
-│  ├── CBSE Syllabus & Curriculum Maps                        │
-│  ├── Question Banks (Previous Years, Exemplars)             │
-│  └── Pedagogical Frameworks (Bloom's, NCF 2005, NEP 2020)   │
-└─────────────────────────────────────────────────────────────┘
+```text
+.
+├── backend/
+│   ├── app/
+│   │   ├── api/routes.py              # HTTP API
+│   │   ├── core/config.py             # Environment-backed settings
+│   │   ├── models/schemas.py          # Request/response models
+│   │   └── services/                  # LLM, prompts, RAG, generation
+│   ├── scripts/scrape_ncert.py        # Catalogue discovery/PDF ingestion
+│   ├── tests/                         # Backend smoke tests
+│   ├── pyproject.toml                 # uv-managed dependencies
+│   ├── uv.lock                        # Locked dependency set
+│   └── .env.example
+├── data/
+│   ├── curriculum/                    # Small, hand-maintained sample maps
+│   └── ncert_raw/                     # Downloaded PDFs/text (not committed)
+└── .github/workflows/ci.yml
 ```
 
----
+## Setup
 
-## 🛠️ Tech Stack
+Install [uv](https://docs.astral.sh/uv/) and use Python 3.10+.
 
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | Next.js 15 (App Router), TypeScript, Tailwind CSS, Framer Motion |
-| **Backend** | Next.js API Routes / Python FastAPI |
-| **LLM** | Google Gemini / OpenAI GPT-4 / Local LLMs (Ollama) |
-| **RAG** | LangChain, LangGraph, Qdrant / LanceDB |
-| **Document Processing** | PyMuPDF, python-docx, unstructured |
-| **Vector Search** | Qdrant, LanceDB, or pgvector |
-| **Auth** | NextAuth.js (Google, Email) |
-| **Deployment** | Vercel (Frontend) + Railway/Render (Backend) |
-| **Export** | PDF (ReportLab/WeasyPrint), DOCX (python-docx), Google Docs API |
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+ & npm
-- Python 3.10+ (for backend services)
-- LLM API Key (Google AI Studio / OpenAI / Anthropic)
-
-### Frontend Setup
 ```bash
-cd prady029.github.io  # This is the Next.js frontend
-npm install
-npm run dev
-# Open http://localhost:3000
-```
-
-### Backend Setup (Python)
-```bash
-cd backend  # To be created
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-# Configure environment
+cd backend
+uv python install 3.11
+uv sync --extra dev
 cp .env.example .env
-# Edit .env with your API keys
-
-# Start FastAPI server
-uvicorn main:app --reload --port 8000
 ```
+`uv.lock` pins the resolved environment. Use `uv sync --locked --extra dev` in CI or when you want to ensure the lockfile is unchanged.
 
-### Environment Variables
+Set the provider key you plan to use in `backend/.env`. For Google generation and embeddings, set `GOOGLE_API_KEY`. The defaults do not require credentials for health/curriculum endpoints; generation will return an error until a provider key is configured.
+
+Start the API from `backend/`:
+
 ```bash
-# .env
-GOOGLE_API_KEY=your_gemini_key
-OPENAI_API_KEY=your_openai_key
-ANTHROPIC_API_KEY=your_claude_key
-QDRANT_URL=your_qdrant_url
-QDRANT_API_KEY=your_qdrant_key
-NEXTAUTH_SECRET=your_nextauth_secret
-NEXTAUTH_URL=http://localhost:3000
+uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
----
+Interactive API docs: <http://127.0.0.1:8000/docs>
 
-## 📚 Curriculum Alignment
+## NCERT catalogue and chapter ingestion
 
-The assistant is designed around **Indian education standards**:
+The scraper reads book codes and chapter ranges from the official NCERT catalogue page instead of assuming catalogue query parameters:
 
-| Framework | Integration |
-|-----------|-------------|
-| **NCERT Textbooks** | Primary knowledge source (Classes 6-12) |
-| **CBSE Syllabus** | Chapter-wise mapping, weightage |
-| **NCF 2005** | Pedagogical principles, constructivist approach |
-| **NEP 2020** | Competency-based education, multidisciplinary |
-| **Bloom's Taxonomy** | Objective classification (Remember → Create) |
-| **Learning Outcomes** | NCERT-defined outcomes per class/subject |
-
-### Supported Subjects (Planned)
-- **Science** (Physics, Chemistry, Biology) — Classes 9-12
-- **Mathematics** — Classes 9-12
-- **Social Science** (History, Geography, Civics, Economics) — Classes 9-10
-- **English/Hindi** — Language and literature
-
----
-
-## 💡 Example Use Cases
-
-### 1. Lesson Plan Generation
-```
-Input:  Class 10 Science, Chapter "Light - Reflection and Refraction", 
-        2 periods, mixed-ability class
-
-Output: Structured lesson plan with:
-  • Learning objectives (Bloom's aligned)
-  • Prerequisites & misconceptions
-  • Activity timeline (5E model: Engage, Explore, Explain, Elaborate, Evaluate)
-  • Differentiation strategies
-  • Assessment checkpoints
-  • Required materials & digital resources
-```
-
-### 2. Question Paper Creation
-```
-Input:  Class 12 Physics, Unit "Electrostatics", 
-        30 marks, 1 hour, CBSE pattern
-
-Output: Question paper with:
-  • Section A: MCQs (1 mark × 5)
-  • Section B: Short Answer (2 marks × 5) 
-  • Section C: Long Answer (3 marks × 4)
-  • Section D: Case-based (5 marks × 1)
-  • Marking scheme & blueprint
-  • Difficulty distribution (Easy 30%, Medium 50%, Hard 20%)
-```
-
----
-
-## 🔒 Privacy & Ethics
-
-| Principle | Implementation |
-|-----------|----------------|
-| **Data Privacy** | No student PII stored; teacher data encrypted at rest |
-| **Content Safety** | LLM guardrails for educational appropriateness |
-| **Bias Mitigation** | Regular audits for gender/cultural bias in generated content |
-| **Human-in-Loop** | Teacher *must* review before classroom use |
-| **Offline Option** | Local LLM support (Ollama) for air-gapped schools |
-
-> ⚠️ **Important**: This tool is **experimental**. Always review generated content before use. AI can hallucinate facts, misalign with curriculum, or produce inappropriate difficulty levels.
-
----
-
-## 🗺️ Roadmap
-
-### Phase 1: Core MVP (Current)
-- [ ] Lesson plan generator (single chapter)
-- [ ] Question paper generator (single unit)
-- [ ] Basic NCERT textbook RAG
-- [ ] PDF/Word export
-
-### Phase 2: Classroom Integration
-- [ ] Multi-chapter unit plans
-- [ ] Assessment rubric generator
-- [ ] Student-facing practice questions
-- [ ] Teacher dashboard with class management
-
-### Phase 3: Intelligence & Personalization
-- [ ] Adaptive difficulty based on class performance
-- [ ] Learning gap analysis from assessments
-- [ ] Multi-language support (Hindi, regional)
-- [ ] Voice input for teachers
-
-### Phase 4: Ecosystem
-- [ ] Collaborative lesson planning
-- [ ] Integration with DIKSHA, Google Classroom
-- [ ] Analytics for school administrators
-- [ ] Community-contributed templates
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from **educators, developers, and researchers**!
-
-### Ways to Contribute
-1. **🧪 Test & Report** — Try the tool, report bugs, suggest improvements
-2. **📚 Curriculum Mapping** — Help map NCERT chapters to learning objectives
-3. **💬 Prompt Engineering** — Refine prompts for better outputs
-4. **🌐 Localization** — Add Hindi/regional language support
-5. **💻 Code** — Frontend, backend, RAG pipeline improvements
-
-### Development Setup
 ```bash
-# Fork & clone
-git clone https://github.com/Prady029/NCERT-AI-Teacher-Assistant
-cd NCERT-AI-Teacher-Assistant
+# Discover the current catalogue and save its exact labels/codes
+uv run python scripts/scrape_ncert.py --catalogue-json ../data/ncert_catalogue.json
 
-# Create feature branch
-git checkout -b feature/lesson-plan-v2
+# Preview books for a class (use the subject label exactly as it appears in the catalogue)
+uv run python scripts/scrape_ncert.py --class 10 --subject Science
 
-# Make changes, test, commit
-git commit -m "feat: add 5E model template for science lessons"
-
-# Push & create PR
-git push origin feature/lesson-plan-v2
+# Download chapter PDFs, extract text, and write an index
+uv run python scripts/scrape_ncert.py \
+  --class 10 --subject Science --book-code jesc1 --download \
+  --output ../data/ncert_raw --delay 1.0
 ```
 
----
+Source: [NCERT Textbooks PDF catalogue](https://ncert.nic.in/textbook.php). The script uses a polite delay and stores the source URL alongside each downloaded chapter. Check NCERT's current copyright notice and terms before downloading, retaining, redistributing, or using textbook material. PDFs and extracted text are excluded from Git; ingest locally and do not commit the corpus.
 
-## 📖 Documentation
+PDF text extraction quality varies by document; scanned/image-only pages may require OCR, which is not included yet. Verify inferred chapter titles and extracted text before indexing.
 
-| Document | Link |
-|----------|------|
-| **User Guide** | [USAGE_GUIDE.md](docs/USAGE_GUIDE.md) *(coming soon)* |
-| **Prompt Templates** | [PROMPTS.md](docs/PROMPTS.md) *(coming soon)* |
-| **API Reference** | [API.md](docs/API.md) *(coming soon)* |
-| **Curriculum Maps** | [CURRICULUM.md](docs/CURRICULUM.md) *(coming soon)* |
+## Retrieval setup (optional)
 
----
+Run Qdrant locally (example):
 
-## 📜 License
+```bash
+docker run --rm -p 6333:6333 qdrant/qdrant
+```
 
-MIT License — Free for educational and research use.
+Set `QDRANT_URL`, `GOOGLE_API_KEY`, and a long random `INDEXING_API_KEY` in `.env`. From the backend directory, index already-downloaded/extracted chapters:
 
----
+```bash
+curl -X POST 'http://127.0.0.1:8000/api/v1/admin/index-textbooks?subject=science&class_level=10' \
+  -H 'X-Indexing-Api-Key: YOUR_INDEXING_API_KEY'
+```
 
-## 🙏 Acknowledgments
+The indexing route is disabled unless `INDEXING_API_KEY` is configured. Do not expose this prototype directly to the public internet; deployment still needs authentication, authorization, rate limits, logging/privacy controls, and secret management.
 
-- **NCERT** — For open-access textbooks and curriculum frameworks
-- **CBSE** — For syllabus and examination patterns
-- **Teachers** — Whose daily challenges inspired this project
-- **Open Source LLM Community** — HuggingFace, LangChain, Ollama teams
+## API examples
 
----
+```bash
+curl -X POST http://127.0.0.1:8000/api/v1/lesson-plans \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "subject":"science",
+    "class_level":10,
+    "chapter":"Light – Reflection and Refraction",
+    "duration_periods":2,
+    "student_profile":"mixed_ability",
+    "pedagogical_model":"5e"
+  }'
+```
 
-## 👤 Author
+Other endpoints:
 
-**Pradyumna Kumar Sahoo**  
-*Data Scientist • B.Sc.B.Ed (NCERT RIE Bhubaneswar) • M.Sc. Big Data Analytics (CURAJ)*
+| Method | Path | Purpose |
+|---|---|---|
+| `GET` | `/api/v1/health` | API/provider readiness |
+| `GET` | `/api/v1/curriculum/{subject}/{class_level}` | Locally available curriculum metadata |
+| `POST` | `/api/v1/lesson-plans` | Draft a 5E lesson plan |
+| `POST` | `/api/v1/question-papers` | Draft questions and marking scheme |
+| `POST` | `/api/v1/chapter-summaries` | Draft a chapter summary |
+| `POST` | `/api/v1/evaluate` | Formative feedback on an answer |
+| `POST` | `/api/v1/admin/index-textbooks` | Protected local corpus indexing |
 
-- 🌐 Portfolio: [prady029.github.io](https://prady029.github.io)
-- 💼 LinkedIn: [prady029](https://linkedin.com/in/prady029)
-- 🐙 GitHub: [@Prady029](https://github.com/Prady029)
-- ✉️ Email: [pradyumna.sahoo@outlook.in](mailto:pradyumna.sahoo@outlook.in)
+## Tests
 
----
+```bash
+cd backend
+uv run pytest -q
+uv run python -m compileall -q app scripts tests
+```
 
-> *"Technology will not replace great teachers, but technology in the hands of great teachers can be transformational."* — George Couros
+Generation and retrieval tests should mock provider/network calls; no live API key is needed for the smoke tests.
 
-*Last updated: October 2024*
+## Curriculum accuracy and responsible use
+
+NCERT textbook availability and syllabus content can change, including rationalised/revised material. Do not treat old chapter lists or the sample JSON files as the current CBSE assessment blueprint. Verify against current official NCERT/CBSE sources for the relevant academic year. Keep retrieved passage provenance with generated outputs as a future improvement; do not invent page references when none were retrieved.
+
+The project is intended to support teachers. A teacher remains responsible for reviewing, adapting, and approving every generated artifact. Do not use model-generated marks as the sole basis for high-stakes grading.
+
+## Contributing and license
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). The project is licensed under the [MIT License](LICENSE); third-party NCERT content remains subject to NCERT's own terms and copyright notices.
+
+## Author
+
+**Pradyumna Kumar Sahoo** — [GitHub](https://github.com/Prady029) · [Portfolio](https://prady029.github.io)
