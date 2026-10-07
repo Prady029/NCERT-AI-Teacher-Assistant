@@ -14,7 +14,7 @@ dependencies = [
     "openai>=1.12,<2.0",
     "anthropic>=0.25,<1.0",
     "requests>=2.31,<3.0",
-    "pypdf>=4.0,<6.0",
+    "pypdf>=4.0,<7.0",
     "qdrant-client>=1.7,<2.0",
 ]
 
